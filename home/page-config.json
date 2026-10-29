@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "domain": "catvelvet",
+  "domain": "catvelvet.zoolandingpage.com.mx",
   "pageId": "home",
   "rootIds": [
     "cvBanner",
@@ -13,7 +13,7 @@
   "seo": {
     "title": "Succionador de rosa con orientación incluida | Cat Velvet",
     "description": "Succionador de rosa AZOI de silicona, con 10 modos y orientación en línea incluida. Datos del producto, pedido por WhatsApp y agenda tras validar el pago.",
-    "canonical": "https://test.zoolandingpage.com.mx/?draftDomain=catvelvet",
+    "canonical": "https://test.zoolandingpage.com.mx/?draftDomain=catvelvet.zoolandingpage.com.mx",
     "robots": "noindex,nofollow",
     "openGraph": {
       "type": "website",
@@ -21,7 +21,7 @@
       "locale": "es_MX",
       "title": "Succionador de rosa con orientación incluida | Cat Velvet",
       "description": "Succionador de rosa AZOI de silicona, con 10 modos y orientación en línea incluida. Datos del producto, pedido por WhatsApp y agenda tras validar el pago.",
-      "url": "https://test.zoolandingpage.com.mx/?draftDomain=catvelvet",
+      "url": "https://test.zoolandingpage.com.mx/?draftDomain=catvelvet.zoolandingpage.com.mx",
       "image": "https://assets.zoolandingpage.com.mx/catvelvet/shared/images/rose-top-review-20261028.png",
       "image:alt": "Succionador de rosa rojo AZOI sobre fondo rosa claro. Imagen de referencia editada para Cat Velvet.",
       "image:width": "1254",
@@ -43,43 +43,43 @@
         "@graph": [
           {
             "@type": "Organization",
-            "@id": "https://test.zoolandingpage.com.mx/?draftDomain=catvelvet#organization",
+            "@id": "https://test.zoolandingpage.com.mx/?draftDomain=catvelvet.zoolandingpage.com.mx#organization",
             "name": "Cat Velvet",
-            "url": "https://test.zoolandingpage.com.mx/?draftDomain=catvelvet"
+            "url": "https://test.zoolandingpage.com.mx/?draftDomain=catvelvet.zoolandingpage.com.mx"
           },
           {
             "@type": "WebSite",
-            "@id": "https://test.zoolandingpage.com.mx/?draftDomain=catvelvet#website",
+            "@id": "https://test.zoolandingpage.com.mx/?draftDomain=catvelvet.zoolandingpage.com.mx#website",
             "name": "Cat Velvet",
-            "url": "https://test.zoolandingpage.com.mx/?draftDomain=catvelvet",
+            "url": "https://test.zoolandingpage.com.mx/?draftDomain=catvelvet.zoolandingpage.com.mx",
             "inLanguage": "es-MX",
             "publisher": {
-              "@id": "https://test.zoolandingpage.com.mx/?draftDomain=catvelvet#organization"
+              "@id": "https://test.zoolandingpage.com.mx/?draftDomain=catvelvet.zoolandingpage.com.mx#organization"
             }
           },
           {
             "@type": "ItemPage",
-            "@id": "https://test.zoolandingpage.com.mx/?draftDomain=catvelvet#webpage",
-            "url": "https://test.zoolandingpage.com.mx/?draftDomain=catvelvet",
+            "@id": "https://test.zoolandingpage.com.mx/?draftDomain=catvelvet.zoolandingpage.com.mx#webpage",
+            "url": "https://test.zoolandingpage.com.mx/?draftDomain=catvelvet.zoolandingpage.com.mx",
             "name": "Succionador de rosa con orientación incluida | Cat Velvet",
             "description": "Succionador de rosa AZOI de silicona, con 10 modos y orientación en línea incluida. Datos del producto, pedido por WhatsApp y agenda tras validar el pago.",
             "inLanguage": "es-MX",
             "isPartOf": {
-              "@id": "https://test.zoolandingpage.com.mx/?draftDomain=catvelvet#website"
+              "@id": "https://test.zoolandingpage.com.mx/?draftDomain=catvelvet.zoolandingpage.com.mx#website"
             },
             "mainEntity": {
-              "@id": "https://test.zoolandingpage.com.mx/?draftDomain=catvelvet#product"
+              "@id": "https://test.zoolandingpage.com.mx/?draftDomain=catvelvet.zoolandingpage.com.mx#product"
             },
             "about": {
-              "@id": "https://test.zoolandingpage.com.mx/?draftDomain=catvelvet#orientation"
+              "@id": "https://test.zoolandingpage.com.mx/?draftDomain=catvelvet.zoolandingpage.com.mx#orientation"
             }
           },
           {
             "@type": "Product",
-            "@id": "https://test.zoolandingpage.com.mx/?draftDomain=catvelvet#product",
+            "@id": "https://test.zoolandingpage.com.mx/?draftDomain=catvelvet.zoolandingpage.com.mx#product",
             "name": "Succionador de rosa AZOI",
             "description": "Succionador de silicona color rojo con diseño de rosa, 10 modos de succión y control por botón o aplicación móvil. Su compra en Cat Velvet incluye una sesión orientativa en línea sobre uso y cuidados.",
-            "url": "https://test.zoolandingpage.com.mx/?draftDomain=catvelvet#producto",
+            "url": "https://test.zoolandingpage.com.mx/?draftDomain=catvelvet.zoolandingpage.com.mx#producto",
             "brand": {
               "@type": "Brand",
               "name": "AZOI"
@@ -120,36 +120,36 @@
               }
             ],
             "isRelatedTo": {
-              "@id": "https://test.zoolandingpage.com.mx/?draftDomain=catvelvet#orientation"
+              "@id": "https://test.zoolandingpage.com.mx/?draftDomain=catvelvet.zoolandingpage.com.mx#orientation"
             }
           },
           {
             "@type": "Service",
-            "@id": "https://test.zoolandingpage.com.mx/?draftDomain=catvelvet#orientation",
+            "@id": "https://test.zoolandingpage.com.mx/?draftDomain=catvelvet.zoolandingpage.com.mx#orientation",
             "name": "Sesión orientativa en línea incluida con el producto",
             "serviceType": "Orientación educativa sobre uso y cuidado del producto",
             "description": "Sesión en línea incluida en la compra del succionador de rosa, con la Mtra. Jethzabel Rojas, psicóloga clínica y sexóloga con maestría en educación sexual. El enlace de Calendly se comparte por WhatsApp después de validar el pago. Duración y condiciones por confirmar.",
-            "url": "https://test.zoolandingpage.com.mx/?draftDomain=catvelvet#orientacion",
+            "url": "https://test.zoolandingpage.com.mx/?draftDomain=catvelvet.zoolandingpage.com.mx#orientacion",
             "provider": [
               {
-                "@id": "https://test.zoolandingpage.com.mx/?draftDomain=catvelvet#organization"
+                "@id": "https://test.zoolandingpage.com.mx/?draftDomain=catvelvet.zoolandingpage.com.mx#organization"
               },
               {
-                "@id": "https://test.zoolandingpage.com.mx/?draftDomain=catvelvet#professional"
+                "@id": "https://test.zoolandingpage.com.mx/?draftDomain=catvelvet.zoolandingpage.com.mx#professional"
               }
             ],
             "isRelatedTo": {
-              "@id": "https://test.zoolandingpage.com.mx/?draftDomain=catvelvet#product"
+              "@id": "https://test.zoolandingpage.com.mx/?draftDomain=catvelvet.zoolandingpage.com.mx#product"
             }
           },
           {
             "@type": "Person",
-            "@id": "https://test.zoolandingpage.com.mx/?draftDomain=catvelvet#professional",
+            "@id": "https://test.zoolandingpage.com.mx/?draftDomain=catvelvet.zoolandingpage.com.mx#professional",
             "name": "Jethzabel Rojas",
             "honorificPrefix": "Mtra.",
             "jobTitle": "Psicóloga clínica y sexóloga",
             "description": "Con maestría en educación sexual y una amplia trayectoria en el acompañamiento integral.",
-            "url": "https://test.zoolandingpage.com.mx/?draftDomain=catvelvet#jethzabel-rojas",
+            "url": "https://test.zoolandingpage.com.mx/?draftDomain=catvelvet.zoolandingpage.com.mx#jethzabel-rojas",
             "knowsAbout": [
               "Terapia de pareja y familiar con enfoque sistémico",
               "Cuidados paliativos y bioética",

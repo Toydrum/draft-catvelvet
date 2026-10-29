@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "domain": "catvelvet",
+  "domain": "catvelvet.zoolandingpage.com.mx",
   "aliases": [],
   "defaultPageId": "home",
   "routes": [
@@ -89,7 +89,7 @@
         "locale": "es_MX",
         "title": "Succionador de rosa con orientación incluida | Cat Velvet",
         "description": "Succionador de rosa AZOI de silicona, con 10 modos y orientación en línea incluida. Datos del producto, pedido por WhatsApp y agenda tras validar el pago.",
-        "url": "https://test.zoolandingpage.com.mx/?draftDomain=catvelvet",
+        "url": "https://test.zoolandingpage.com.mx/?draftDomain=catvelvet.zoolandingpage.com.mx",
         "image": "https://assets.zoolandingpage.com.mx/catvelvet/shared/images/rose-top-review-20261028.png",
         "image:alt": "Succionador de rosa rojo AZOI sobre fondo rosa claro. Imagen de referencia editada para Cat Velvet.",
         "image:width": "1254",
