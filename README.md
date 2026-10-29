@@ -1,18 +1,18 @@
-# Cat Velvet — local navigable draft
+# Cat Velvet — test review
 
-First version: 2026-10-28, Central Time. Provisional identifier selected by the user: `catvelvet`. This is a local Zoolanding draft, not a published domain or a registered remote draft repository.
+Updated 2026-10-28, Central Time. Published for review on the shared Zoolanding test host. Canonical review identifier: `catvelvet.zoolandingpage.com.mx`; repository: `Toydrum/draft-catvelvet-zoolandingpage-com-mx`. No DNS registration, dedicated alias or production deployment was performed.
 
 ## Preview
 
-Run the hub development server, for example `npm start -- --host 127.0.0.1 --port 4300`, and open:
+Open the shared test preview from any device:
 
-- Home: `http://127.0.0.1:4300/?draftDomain=catvelvet&debugWorkspace=false`
-- Shipping form: `http://127.0.0.1:4300/pedido?draftDomain=catvelvet&debugWorkspace=false`
-- Privacy draft: `http://127.0.0.1:4300/privacidad?draftDomain=catvelvet&debugWorkspace=false`
+- Home: `https://test.zoolandingpage.com.mx/?draftDomain=catvelvet.zoolandingpage.com.mx&debugWorkspace=false`
+- Shipping form: `https://test.zoolandingpage.com.mx/pedido?draftDomain=catvelvet.zoolandingpage.com.mx&debugWorkspace=false`
+- Privacy draft: `https://test.zoolandingpage.com.mx/privacidad?draftDomain=catvelvet.zoolandingpage.com.mx&debugWorkspace=false`
 
-All three routes use the shared Zoolanding renderer and native JSON components. Shared navigation and footer live in root `components.json`; each route owns its page payload. The shipping route uses the native embed-frame component for the official Google Forms iframe. No custom HTML, scripts or stylesheets are used. The shared renderer mounts the iframe immediately while keeping native lazy loading, avoiding a skipped viewport-placeholder trigger during fast scrolling. Appearance is authored with Angora utilities and the local theme.
+All three routes use the shared Zoolanding renderer and native JSON components. Shared navigation and footer live in root `components.json`; each route owns its page payload. The shipping route uses the native embed-frame component for the official Google Forms iframe. No custom HTML, scripts or stylesheets are used. The deployed shared renderer loads the iframe when its viewport trigger is reached. The direct-form fallback remains available; the separate local renderer improvement has not been included in this test-only draft publication. Appearance is authored with Angora utilities and the local theme.
 
-The approved design uses warm white, peach, blush and plum text. The hero reuses the gallery's clean upper-angle image on blush, with its natural square proportions and the existing rounded frame on the peach section. The product gallery contains three AI-edited listing references with clean blush, warm-white and peach backgrounds. All images are identified as illustrative references and served from local draft assets. See [asset provenance](assets/README.md) for sources and publication follow-up.
+The approved design uses warm white, peach, blush and plum text. The hero reuses the gallery's clean upper-angle image on blush, with its natural square proportions and the existing rounded frame on the peach section. The product gallery contains three AI-edited listing references with clean blush, warm-white and peach backgrounds. All images are identified as illustrative references and served from the approved public asset CDN. See [asset provenance](assets/README.md) for sources and publication follow-up.
 
 ## Functional scope
 
@@ -32,8 +32,12 @@ The approved design uses warm white, peach, blush and plum text. The hero reuses
 - Price, commercial contact, carrier/timing, product manual, completed privacy notice, warranty/returns and session conditions remain pending. Focused source research did not resolve exact package contents, charging, measurements, runtime, official app compatibility or care; no generic rose-device specifications were adopted.
 - Search and answer-discovery preparation includes descriptive product/session headings, nine visible answers, route-specific Spanish metadata, product social imagery and related business/product/service structured data. Initial server HTML includes the content. No price, reviews or professional identity were fabricated. See [SEO and AEO handoff](seo-aeo.md) for verified scope, current search guidance and publication prerequisites.
 
-## Next production decisions
+## Publication and next decisions
 
-Confirm canonical domain and approved aliases before creating a remote draft repository or registering it in the fleet. The provisional name is sufficient for local preview but is not accepted by every domain-based publishing/readiness tool. Keep existing `dev -> test -> main` promotion and upload-grant workflows for any later publication. Do not infer that the local asset is available in a shared environment.
+The native `dev -> test` release was merged through PR #1 and the official test deployment succeeded. Only `dev` and `test` branches exist; test is protected and its scoped deployment authorization excludes production. The hub registry change was merged through hub PR #413. The three image uploads used the approved one-hour, three-file, no-overwrite grant.
 
-Task-local evidence and scripts remain in the hub's ignored process/evidence surfaces. No commits or uploads were made for this local version.
+Public desktop and mobile QA covered `/`, `/pedido` and `/privacidad`, gallery selection, mobile navigation, nine empty shipping fields, pending WhatsApp/Calendly controls and no horizontal overflow. All three initial server responses returned 200, one H1, one structured graph and noindex. No extra form response, payment, message or booking was created during publication QA.
+
+The review link is public to people who have it and carries noindex; it is not password protected. The embedded Form saves real responses, so use fictitious values for demonstrations. No automatic expiration has been configured.
+
+Confirm the final commercial domain, price, WhatsApp, Calendly, session conditions, completed privacy contact/address and warranty/returns before production. The biography already uses the professional information supplied by the user; portrait and final approval remain pending. Follow the current repository workflow for future promotions; production remains disabled.

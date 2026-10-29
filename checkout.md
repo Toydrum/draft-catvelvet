@@ -1,6 +1,6 @@
 # Cat Velvet shipping and manual purchase handoff
 
-Updated 2026-10-28 CT. The landing remains a local noindex preview. The embedded Google Form is published and saves real responses; use fictitious data when reviewing.
+Updated 2026-10-28 CT. The landing is a published noindex review on the shared test host; see [preview links](README.md#preview). Production remains disabled. The embedded Google Form is published and saves real responses; use fictitious data when reviewing.
 
 ## Simple operation
 

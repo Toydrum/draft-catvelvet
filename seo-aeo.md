@@ -1,6 +1,6 @@
 # Cat Velvet SEO and answer discovery
 
-Updated 2026-10-28 CT. Local draft preparation; no publication or indexing has occurred.
+Updated 2026-10-28 CT. Shared test review is published and remains noindex; no production publication or indexing request has occurred.
 
 ## Content and search intent
 
@@ -12,7 +12,7 @@ Product facts and unresolved manufacturer details remain governed by [product so
 
 ## Metadata and structured data
 
-- Home, `/pedido` and `/privacidad` have distinct Spanish titles/descriptions, clean local canonical URLs and matching Open Graph/Twitter metadata. The privacy title/description explicitly identify the incomplete draft. The clean upper-angle product image supplies the social preview with its true 1254 × 1254 dimensions and alternative text. Open Graph locale is `es_MX`.
+- Home, `/pedido` and `/privacidad` have distinct Spanish titles/descriptions, shared-test canonical URLs and matching Open Graph/Twitter metadata. The privacy title/description explicitly identify the incomplete draft. The clean upper-angle product image supplies the social preview with its true 1254 × 1254 dimensions and alternative text. Open Graph locale is `es_MX`.
 - Home JSON-LD relates Organization (Cat Velvet), WebSite, ItemPage, Product (AZOI), Service (educational orientation) and the user-supplied professional Person. The product includes material, color, three images, known technical properties and the appropriate adult-product consideration. Service providers reference the business and the named professional. The Person's title, role, description and four areas match the visible presentation; the professional license number is not duplicated in search metadata.
 - The shipping route has its own WebPage graph and retains `noindex,nofollow`. `/pedido` is excluded from the configured sitemap route set. Its native Google Forms embed stores shipping responses in a private linked Sheet; the landing's metadata, route URLs and structured data do not contain response values or the Sheet/editor URL. Payment stays in WhatsApp and calendar access follows payment validation.
 - The privacy draft also has its own WebPage graph, remains noindex and is excluded from the configured sitemap. Its visible missing-address/email notice and controller name are not enriched into invented contact/location metadata. Footer and shipping links open it at the top through the native navigation setting. Nationwide Mexico shipping is visible in the home benefit, shipping FAQ and order introduction; costs depend on destination and are confirmed before payment.
@@ -29,7 +29,7 @@ Product rich-result requirements: [Product snippet documentation](https://develo
 
 ## Before publication
 
-1. Confirm the real canonical domain, HTTPS and approved aliases. The current `http://127.0.0.1:4300` metadata origin is deliberately local. Replace it in page canonicals, Open Graph URLs, image URLs and every JSON-LD ID/URL together; upload the assets to their approved public location. The provisional identifier is not a registered domain.
+1. Confirm the real canonical domain, HTTPS and approved aliases. The current metadata origin is the shared test host with the canonical review identifier in its query. The three images are already hosted on the approved CDN. Replace page canonicals, Open Graph URLs and every JSON-LD ID/URL together when the final commercial domain is approved. No domain was registered for this review.
 2. Confirm price, stock, exact package contents, destination-based shipping quotes, carrier/timing, payment instructions, commercial WhatsApp, Calendly, session terms and privacy/warranty/returns policies. Nationwide Mexico shipping is already user-confirmed. Complete the privacy controller address, monitored email and public full-notice link before using the prepared short Google Forms notice. Add an Offer only with approved facts and visible matching copy; never use a zero placeholder price.
 3. Obtain a professional portrait and confirm the supplied profile and degree details before publication. The current title is master's; do not infer a doctoral degree or imply registry verification. Keep the included educational orientation distinct from the professional's broader therapy work.
 4. Keep preview routes `noindex,nofollow`. After approval, make the public home indexable, keep checkout excluded/noindex, inspect the real robots.txt and sitemap, and verify the published HTML and images. Do not block crawling while expecting a noindex directive to be read.
