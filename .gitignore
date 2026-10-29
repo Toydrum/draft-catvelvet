@@ -70,3 +70,4 @@ dist/
 coverage/
 .DS_Store
 Thumbs.db
+/assets/rose-editorial.png

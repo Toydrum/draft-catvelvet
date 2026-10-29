@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "domain": "catvelvet.zoolandingpage.com.mx",
+  "pageId": "pedido",
+  "rootIds": [
+    "cvBanner",
+    "cvHeader",
+    "cvPreview",
+    "cvOrderMain",
+    "cvFooter"
+  ],
+  "modalRootIds": [],
+  "seo": {
+    "title": "Prepara tu pedido de Cat Velvet | Datos de envío",
+    "description": "Envía tus datos de entrega a Cat Velvet mediante Google Forms. El total se confirma por WhatsApp; la sesión se agenda tras validar el pago.",
+    "canonical": "https://test.zoolandingpage.com.mx/pedido?draftDomain=catvelvet.zoolandingpage.com.mx",
+    "robots": "noindex,nofollow",
+    "openGraph": {
+      "type": "website",
+      "site_name": "Cat Velvet",
+      "locale": "es_MX",
+      "title": "Prepara tu pedido de Cat Velvet | Datos de envío",
+      "description": "Envía tus datos de entrega a Cat Velvet mediante Google Forms. El total se confirma por WhatsApp; la sesión se agenda tras validar el pago.",
+      "url": "https://test.zoolandingpage.com.mx/pedido?draftDomain=catvelvet.zoolandingpage.com.mx",
+      "image": "https://assets.zoolandingpage.com.mx/catvelvet/shared/images/rose-top-review-20261028.png",
+      "image:alt": "Succionador de rosa rojo AZOI sobre fondo rosa claro. Imagen de referencia editada para Cat Velvet.",
+      "image:width": "1254",
+      "image:height": "1254",
+      "image:type": "image/png"
+    },
+    "twitter": {
+      "card": "summary",
+      "title": "Prepara tu pedido de Cat Velvet | Datos de envío",
+      "description": "Envía tus datos de entrega a Cat Velvet mediante Google Forms. El total se confirma por WhatsApp; la sesión se agenda tras validar el pago.",
+      "image": "https://assets.zoolandingpage.com.mx/catvelvet/shared/images/rose-top-review-20261028.png",
+      "image:alt": "Succionador de rosa rojo AZOI sobre fondo rosa claro. Imagen de referencia editada para Cat Velvet."
+    }
+  },
+  "structuredData": {
+    "entries": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://test.zoolandingpage.com.mx/?draftDomain=catvelvet.zoolandingpage.com.mx#organization",
+            "name": "Cat Velvet",
+            "url": "https://test.zoolandingpage.com.mx/?draftDomain=catvelvet.zoolandingpage.com.mx"
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://test.zoolandingpage.com.mx/?draftDomain=catvelvet.zoolandingpage.com.mx#website",
+            "name": "Cat Velvet",
+            "url": "https://test.zoolandingpage.com.mx/?draftDomain=catvelvet.zoolandingpage.com.mx",
+            "inLanguage": "es-MX",
+            "publisher": {
+              "@id": "https://test.zoolandingpage.com.mx/?draftDomain=catvelvet.zoolandingpage.com.mx#organization"
+            }
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://test.zoolandingpage.com.mx/pedido?draftDomain=catvelvet.zoolandingpage.com.mx#webpage",
+            "url": "https://test.zoolandingpage.com.mx/pedido?draftDomain=catvelvet.zoolandingpage.com.mx",
+            "name": "Prepara tu pedido de Cat Velvet | Datos de envío",
+            "description": "Envía tus datos de entrega a Cat Velvet mediante Google Forms. El total se confirma por WhatsApp; la sesión se agenda tras validar el pago.",
+            "inLanguage": "es-MX",
+            "isPartOf": {
+              "@id": "https://test.zoolandingpage.com.mx/?draftDomain=catvelvet.zoolandingpage.com.mx#website"
+            },
+            "about": {
+              "@type": "Product",
+              "name": "Succionador de rosa AZOI"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "analytics": {
+    "sectionIds": [],
+    "scrollMilestones": []
+  }
+}

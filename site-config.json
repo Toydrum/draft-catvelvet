@@ -1,0 +1,135 @@
+{
+  "version": 1,
+  "domain": "catvelvet.zoolandingpage.com.mx",
+  "aliases": [],
+  "defaultPageId": "home",
+  "routes": [
+    {
+      "path": "/",
+      "pageId": "home",
+      "label": "Inicio"
+    },
+    {
+      "path": "/pedido",
+      "pageId": "pedido",
+      "label": "Datos de envío"
+    },
+    {
+      "path": "/privacidad",
+      "pageId": "privacidad",
+      "label": "Privacidad"
+    }
+  ],
+  "sitemap": {
+    "excludePaths": [
+      "/pedido",
+      "/privacidad"
+    ]
+  },
+  "site": {
+    "theme": {
+      "defaultMode": "light",
+      "palettes": {
+        "light": {
+          "bgColor": "#FFF9F5",
+          "textColor": "#432A37",
+          "titleColor": "#432A37",
+          "linkColor": "#9C455E",
+          "accentColor": "#9C455E",
+          "secondaryBgColor": "#F6C6B3",
+          "secondaryTextColor": "#432A37",
+          "secondaryTitleColor": "#432A37",
+          "secondaryLinkColor": "#7C3049",
+          "secondaryAccentColor": "#E8AEC0",
+          "successColor": "#27634B",
+          "onSuccessColor": "#FFFFFF",
+          "errorColor": "#8A2148",
+          "onErrorColor": "#FFFFFF",
+          "warningColor": "#79510A",
+          "onWarningColor": "#FFFFFF",
+          "infoColor": "#43516D",
+          "onInfoColor": "#FFFFFF"
+        },
+        "dark": {
+          "bgColor": "#FFF9F5",
+          "textColor": "#432A37",
+          "titleColor": "#432A37",
+          "linkColor": "#9C455E",
+          "accentColor": "#9C455E",
+          "secondaryBgColor": "#F6C6B3",
+          "secondaryTextColor": "#432A37",
+          "secondaryTitleColor": "#432A37",
+          "secondaryLinkColor": "#7C3049",
+          "secondaryAccentColor": "#E8AEC0",
+          "successColor": "#27634B",
+          "onSuccessColor": "#FFFFFF",
+          "errorColor": "#8A2148",
+          "onErrorColor": "#FFFFFF",
+          "warningColor": "#79510A",
+          "onWarningColor": "#FFFFFF",
+          "infoColor": "#43516D",
+          "onInfoColor": "#FFFFFF"
+        }
+      }
+    },
+    "appIdentity": {
+      "identifier": "catvelvet",
+      "name": "Cat Velvet",
+      "version": "0.1.0",
+      "description": "Bienestar íntimo con acompañamiento educativo."
+    },
+    "seo": {
+      "siteName": "Cat Velvet",
+      "title": "Succionador de rosa con orientación incluida | Cat Velvet",
+      "description": "Succionador de rosa AZOI de silicona, con 10 modos y orientación en línea incluida. Datos del producto, pedido por WhatsApp y agenda tras validar el pago.",
+      "defaultImage": "https://assets.zoolandingpage.com.mx/catvelvet/shared/images/rose-top-review-20261028.png",
+      "openGraph": {
+        "type": "website",
+        "site_name": "Cat Velvet",
+        "locale": "es_MX",
+        "title": "Succionador de rosa con orientación incluida | Cat Velvet",
+        "description": "Succionador de rosa AZOI de silicona, con 10 modos y orientación en línea incluida. Datos del producto, pedido por WhatsApp y agenda tras validar el pago.",
+        "url": "https://test.zoolandingpage.com.mx/?draftDomain=catvelvet.zoolandingpage.com.mx",
+        "image": "https://assets.zoolandingpage.com.mx/catvelvet/shared/images/rose-top-review-20261028.png",
+        "image:alt": "Succionador de rosa rojo AZOI sobre fondo rosa claro. Imagen de referencia editada para Cat Velvet.",
+        "image:width": "1254",
+        "image:height": "1254",
+        "image:type": "image/png"
+      },
+      "twitter": {
+        "card": "summary",
+        "title": "Succionador de rosa con orientación incluida | Cat Velvet",
+        "description": "Succionador de rosa AZOI de silicona, con 10 modos y orientación en línea incluida. Datos del producto, pedido por WhatsApp y agenda tras validar el pago.",
+        "image": "https://assets.zoolandingpage.com.mx/catvelvet/shared/images/rose-top-review-20261028.png",
+        "image:alt": "Succionador de rosa rojo AZOI sobre fondo rosa claro. Imagen de referencia editada para Cat Velvet."
+      },
+      "robots": "noindex,nofollow"
+    },
+    "i18n": {
+      "defaultLanguage": "es",
+      "supportedLanguages": [
+        {
+          "code": "es",
+          "label": "ES"
+        }
+      ]
+    }
+  },
+  "runtime": {
+    "analytics": {
+      "enabled": false
+    }
+  },
+  "defaults": {
+    "ui": {
+      "loadingCurtain": {
+        "title": "cat velvet",
+        "subtitle": "A tu ritmo. Con orientación.",
+        "background": "#FFF9F5",
+        "foreground": "#432A37",
+        "accent": "#9C455E",
+        "exitDurationMs": 300
+      }
+    }
+  }
+}

@@ -1,0 +1,270 @@
+{
+  "version": 1,
+  "domain": "catvelvet.zoolandingpage.com.mx",
+  "pageId": "pedido",
+  "components": [
+    {
+      "id": "cvBack",
+      "type": "link",
+      "config": {
+        "href": "/#producto",
+        "text": "← Volver al producto",
+        "classes": "ank-bg-transparent ank-border-0 ank-color-textColor ank-fontSize-0_9rem ank-fontWeight-400 ank-padding-10px ank-cursor-pointer ank-textDecoration-none ank-outlineOffset-4px"
+      }
+    },
+    {
+      "id": "cvOrderEyebrow",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Datos de envío",
+        "classes": "ank-m-0 ank-fontSize-0_7rem ank-fontWeight-500 ank-letterSpacing-0_2em ank-textTransform-uppercase"
+      }
+    },
+    {
+      "id": "cvOrderTitle",
+      "type": "text",
+      "config": {
+        "tag": "h1",
+        "text": "Prepara tu envío con Cat Velvet.",
+        "classes": "ank-fontFamily-GeorgiaCOMserif ank-fontWeight-400 ank-letterSpacing-MIN0_03em ank-m-0 ank-color-titleColor ank-fontSize-2_35rem ank-fontSize-md-3_25rem ank-lineHeight-1_08"
+      }
+    },
+    {
+      "id": "cvOrderIntro",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Completa el formulario y pulsa Enviar dentro de Google Forms. Realizamos envíos a todo México. El costo depende del destino y se confirma por WhatsApp junto con el total, antes de pagar.",
+        "classes": "ank-m-0 ank-fontSize-1rem ank-fontWeight-400 ank-lineHeight-1_65 ank-color-textColor"
+      }
+    },
+    {
+      "id": "cvOrderPreview",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "El formulario ya guarda respuestas. Para revisar esta vista previa, usa datos ficticios. Precio y WhatsApp comercial pendientes.",
+        "classes": "ank-m-0 ank-fontSize-1rem ank-fontWeight-400 ank-lineHeight-1_65 ank-color-textColor ank-fontSize-0_85rem"
+      }
+    },
+    {
+      "id": "cvShippingStep",
+      "type": "text",
+      "config": {
+        "tag": "h2",
+        "text": "1. Envía tus datos de entrega",
+        "classes": "ank-fontFamily-GeorgiaCOMserif ank-fontWeight-400 ank-letterSpacing-MIN0_03em ank-m-0 ank-fontSize-1_8rem"
+      }
+    },
+    {
+      "id": "cvShippingPrivacy",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Jethzabel Rojas, persona física responsable de Cat Velvet, utilizará tu nombre, teléfono y dirección para atender tu solicitud y coordinar el envío. El domicilio y correo de privacidad de la responsable están pendientes. Google Forms guarda las respuestas en una hoja privada. La paquetería seleccionada recibirá los datos necesarios para entregar el paquete. La confirmación del total y el comprobante se atienden por WhatsApp; la agenda de la orientación se comparte después de validar el pago. Consulta el borrador del aviso de privacidad para conocer el uso de tus datos y cómo solicitar acceso, corrección, cancelación u oposición. Para revisar esta vista previa, usa datos ficticios.",
+        "classes": "ank-m-0 ank-fontSize-1rem ank-fontWeight-400 ank-lineHeight-1_65 ank-color-textColor ank-fontSize-0_9rem"
+      }
+    },
+    {
+      "id": "cvShippingPrivacyLink",
+      "type": "link",
+      "config": {
+        "href": "/privacidad",
+        "text": "Leer el borrador del aviso de privacidad →",
+        "classes": "ank-bg-transparent ank-border-0 ank-color-textColor ank-fontSize-0_9rem ank-fontWeight-400 ank-padding-10px ank-cursor-pointer ank-textDecoration-none ank-outlineOffset-4px ank-textDecoration-underline",
+        "scrollRestoration": {
+          "mode": "top"
+        }
+      }
+    },
+    {
+      "id": "cvShippingForm",
+      "type": "embed-frame",
+      "config": {
+        "src": "https://docs.google.com/forms/d/e/1FAIpQLSez96L6aCqtY01JCHl9TIe1DBmz2LSrEQRrvXSA_i4MXkUYbQ/viewform?embedded=true",
+        "title": "Cat Velvet · Formulario de datos de envío",
+        "height": "3000",
+        "loading": "lazy",
+        "classes": "ank-display-block ank-width-100per ank-height-3000px ank-height-md-2300px ank-border-0 ank-borderRadius-16px"
+      }
+    },
+    {
+      "id": "cvShippingFormFallback",
+      "type": "link",
+      "config": {
+        "href": "https://docs.google.com/forms/d/e/1FAIpQLSez96L6aCqtY01JCHl9TIe1DBmz2LSrEQRrvXSA_i4MXkUYbQ/viewform",
+        "text": "Abrir el formulario en otra pestaña ↗",
+        "target": "_blank",
+        "rel": "nofollow noopener noreferrer",
+        "classes": "ank-bg-transparent ank-border-0 ank-color-textColor ank-fontSize-0_9rem ank-fontWeight-400 ank-padding-10px ank-cursor-pointer ank-textDecoration-none ank-outlineOffset-4px ank-textDecoration-underline"
+      }
+    },
+    {
+      "id": "cvShippingFormNote",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Enviar este formulario registra tus datos de envío. La compra, el pago y la sesión se confirman por separado.",
+        "classes": "ank-m-0 ank-fontSize-1rem ank-fontWeight-400 ank-lineHeight-1_65 ank-color-textColor ank-fontSize-0_85rem"
+      }
+    },
+    {
+      "id": "cvShippingFormSection",
+      "type": "container",
+      "config": {
+        "tag": "section",
+        "classes": "ank-display-flex ank-flexDirection-column ank-gap-20px ank-bg-secondaryBgColor ank-padding-12px ank-padding-md-24px ank-borderRadius-20px",
+        "components": [
+          "cvShippingStep",
+          "cvShippingPrivacy",
+          "cvShippingPrivacyLink",
+          "cvShippingForm",
+          "cvShippingFormFallback",
+          "cvShippingFormNote"
+        ],
+        "ariaLabel": "Formulario de datos de envío"
+      }
+    },
+    {
+      "id": "cvWhatsAppTitle",
+      "type": "text",
+      "config": {
+        "tag": "h2",
+        "text": "2. Continúa por WhatsApp",
+        "classes": "ank-fontFamily-GeorgiaCOMserif ank-fontWeight-400 ank-letterSpacing-MIN0_03em ank-m-0 ank-fontSize-1_8rem"
+      }
+    },
+    {
+      "id": "cvWhatsAppIntro",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Después de enviar el formulario, usa el mismo nombre y teléfono en el chat para que podamos localizar tus datos. Confirma disponibilidad y el total del producto más el envío antes de pagar.",
+        "classes": "ank-m-0 ank-fontSize-1rem ank-fontWeight-400 ank-lineHeight-1_65 ank-color-textColor"
+      }
+    },
+    {
+      "id": "cvWhatsAppPending",
+      "type": "button",
+      "config": {
+        "type": "button",
+        "label": "Continuar por WhatsApp",
+        "disabled": true,
+        "disabledClasses": "ank-opacity-0_55 ank-cursor-notMINallowed",
+        "classes": "ank-display-inlineMINflex ank-alignItems-center ank-justifyContent-center ank-gap-12px ank-minHeight-52px ank-paddingInline-28px ank-paddingBlock-14px ank-borderRadius-40px ank-bg-accentColor ank-color-white ank-border-0 ank-fontSize-1rem ank-fontWeight-500 ank-textDecoration-none ank-cursor-pointer ank-transition-transform__200ms ank-transformHover-translateYSDMIN2pxED ank-outlineOffset-5px"
+      },
+      "condition": "not:var,ui.contact.whatsappPhone"
+    },
+    {
+      "id": "cvWhatsAppLink",
+      "type": "link",
+      "config": {
+        "href": "",
+        "text": "Continuar por WhatsApp →",
+        "target": "_blank",
+        "rel": "nofollow noopener noreferrer",
+        "classes": "ank-display-inlineMINflex ank-alignItems-center ank-justifyContent-center ank-gap-12px ank-minHeight-52px ank-paddingInline-28px ank-paddingBlock-14px ank-borderRadius-40px ank-bg-accentColor ank-color-white ank-border-0 ank-fontSize-1rem ank-fontWeight-500 ank-textDecoration-none ank-cursor-pointer ank-transition-transform__200ms ank-transformHover-translateYSDMIN2pxED ank-outlineOffset-5px",
+        "message": "Hola, Cat Velvet. Quiero confirmar disponibilidad y el total del producto más el envío. Mis datos de entrega se registran en el formulario de la página."
+      },
+      "condition": "all:var,ui.contact.whatsappPhone",
+      "valueInstructions": "set:config.phone,varOr,ui.contact.whatsappPhone,\"\";set:config.href,whatsAppUrl,eval:config.phone,config.message"
+    },
+    {
+      "id": "cvWhatsAppPendingNote",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Número comercial pendiente. Por ahora este botón no abre WhatsApp.",
+        "classes": "ank-m-0 ank-fontSize-1rem ank-fontWeight-400 ank-lineHeight-1_65 ank-color-textColor ank-fontSize-0_85rem"
+      },
+      "condition": "not:var,ui.contact.whatsappPhone"
+    },
+    {
+      "id": "cvPaymentSteps",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "El comprobante se envía en la conversación de WhatsApp. Después de validar el pago, se coordina el envío y se comparte la agenda de Calendly.",
+        "classes": "ank-m-0 ank-fontSize-1rem ank-fontWeight-400 ank-lineHeight-1_65 ank-color-textColor ank-fontSize-0_9rem"
+      }
+    },
+    {
+      "id": "cvWhatsAppStep",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-flex ank-flexDirection-column ank-gap-20px",
+        "components": [
+          "cvWhatsAppTitle",
+          "cvWhatsAppIntro",
+          "cvWhatsAppPending",
+          "cvWhatsAppLink",
+          "cvWhatsAppPendingNote",
+          "cvPaymentSteps"
+        ]
+      }
+    },
+    {
+      "id": "cvOrderAgendaTitle",
+      "type": "text",
+      "config": {
+        "tag": "h2",
+        "text": "3. Agenda tu sesión después de validar el pago",
+        "classes": "ank-fontFamily-GeorgiaCOMserif ank-fontWeight-400 ank-letterSpacing-MIN0_03em ank-m-0 ank-fontSize-1_4rem"
+      }
+    },
+    {
+      "id": "cvOrderAgendaText",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Recibirás por WhatsApp el enlace de Calendly para elegir tu horario. El enlace está pendiente; enviar tus datos de entrega no reserva una sesión.",
+        "classes": "ank-m-0 ank-fontSize-1rem ank-fontWeight-400 ank-lineHeight-1_65 ank-color-textColor ank-fontSize-0_9rem"
+      }
+    },
+    {
+      "id": "cvOrderAgenda",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-flex ank-flexDirection-column ank-gap-20px ank-gap-12px ank-paddingTop-20px ank-borderTop-1px__solid__HASHDFC8C5",
+        "components": [
+          "cvOrderAgendaTitle",
+          "cvOrderAgendaText"
+        ]
+      }
+    },
+    {
+      "id": "cvOrderFrame",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-width-100per ank-maxWidth-1200px ank-marginInline-auto ank-maxWidth-850px ank-display-flex ank-flexDirection-column ank-gap-20px ank-gap-32px",
+        "components": [
+          "cvBack",
+          "cvOrderEyebrow",
+          "cvOrderTitle",
+          "cvOrderIntro",
+          "cvOrderPreview",
+          "cvShippingFormSection",
+          "cvWhatsAppStep",
+          "cvOrderAgenda"
+        ]
+      }
+    },
+    {
+      "id": "cvOrderMain",
+      "type": "container",
+      "config": {
+        "tag": "main",
+        "classes": "ank-paddingInline-24px ank-paddingInline-md-48px ank-paddingBlock-64px ank-paddingBlock-md-88px ank-bg-bgColor ank-color-textColor ank-fontFamily-ArialCOMsansMINserif",
+        "components": [
+          "cvOrderFrame"
+        ],
+        "id": "cv-main",
+        "tabindex": -1
+      }
+    }
+  ]
+}

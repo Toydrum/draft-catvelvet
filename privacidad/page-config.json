@@ -1,0 +1,79 @@
+{
+  "version": 1,
+  "domain": "catvelvet.zoolandingpage.com.mx",
+  "pageId": "privacidad",
+  "rootIds": [
+    "cvBanner",
+    "cvHeader",
+    "cvPreview",
+    "cvPrivacyMain",
+    "cvFooter"
+  ],
+  "modalRootIds": [],
+  "seo": {
+    "title": "Aviso de privacidad · Borrador | Cat Velvet",
+    "description": "Borrador del aviso de privacidad de Cat Velvet para datos de envío, atención por WhatsApp y agenda de la sesión orientativa. Domicilio y correo pendientes.",
+    "canonical": "https://test.zoolandingpage.com.mx/privacidad?draftDomain=catvelvet.zoolandingpage.com.mx",
+    "robots": "noindex,nofollow",
+    "openGraph": {
+      "type": "website",
+      "site_name": "Cat Velvet",
+      "locale": "es_MX",
+      "title": "Aviso de privacidad · Borrador | Cat Velvet",
+      "description": "Borrador del aviso de privacidad de Cat Velvet para datos de envío, atención por WhatsApp y agenda de la sesión orientativa. Domicilio y correo pendientes.",
+      "url": "https://test.zoolandingpage.com.mx/privacidad?draftDomain=catvelvet.zoolandingpage.com.mx",
+      "image": "https://assets.zoolandingpage.com.mx/catvelvet/shared/images/rose-top-review-20261028.png",
+      "image:alt": "Succionador de rosa rojo AZOI sobre fondo rosa claro. Imagen de referencia editada para Cat Velvet.",
+      "image:width": "1254",
+      "image:height": "1254",
+      "image:type": "image/png"
+    },
+    "twitter": {
+      "card": "summary",
+      "title": "Aviso de privacidad · Borrador | Cat Velvet",
+      "description": "Borrador del aviso de privacidad de Cat Velvet para datos de envío, atención por WhatsApp y agenda de la sesión orientativa. Domicilio y correo pendientes.",
+      "image": "https://assets.zoolandingpage.com.mx/catvelvet/shared/images/rose-top-review-20261028.png",
+      "image:alt": "Succionador de rosa rojo AZOI sobre fondo rosa claro. Imagen de referencia editada para Cat Velvet."
+    }
+  },
+  "structuredData": {
+    "entries": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://test.zoolandingpage.com.mx/?draftDomain=catvelvet.zoolandingpage.com.mx#organization",
+            "name": "Cat Velvet",
+            "url": "https://test.zoolandingpage.com.mx/?draftDomain=catvelvet.zoolandingpage.com.mx"
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://test.zoolandingpage.com.mx/?draftDomain=catvelvet.zoolandingpage.com.mx#website",
+            "name": "Cat Velvet",
+            "url": "https://test.zoolandingpage.com.mx/?draftDomain=catvelvet.zoolandingpage.com.mx",
+            "inLanguage": "es-MX",
+            "publisher": {
+              "@id": "https://test.zoolandingpage.com.mx/?draftDomain=catvelvet.zoolandingpage.com.mx#organization"
+            }
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://test.zoolandingpage.com.mx/privacidad?draftDomain=catvelvet.zoolandingpage.com.mx#webpage",
+            "url": "https://test.zoolandingpage.com.mx/privacidad?draftDomain=catvelvet.zoolandingpage.com.mx",
+            "name": "Aviso de privacidad · Borrador | Cat Velvet",
+            "description": "Borrador del aviso de privacidad de Cat Velvet para datos de envío, atención por WhatsApp y agenda de la sesión orientativa. Domicilio y correo pendientes.",
+            "inLanguage": "es-MX",
+            "isPartOf": {
+              "@id": "https://test.zoolandingpage.com.mx/?draftDomain=catvelvet.zoolandingpage.com.mx#website"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "analytics": {
+    "sectionIds": [],
+    "scrollMilestones": []
+  }
+}
