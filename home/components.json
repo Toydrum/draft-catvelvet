@@ -1,0 +1,2032 @@
+{
+  "version": 1,
+  "domain": "catvelvet",
+  "pageId": "home",
+  "components": [
+    {
+      "id": "cvHome",
+      "type": "container",
+      "config": {
+        "tag": "main",
+        "classes": "ank-bg-bgColor ank-color-textColor ank-fontFamily-ArialCOMsansMINserif",
+        "components": [
+          "cvHero",
+          "cvBenefits",
+          "cvProduct",
+          "cvOrientation",
+          "cvProcess",
+          "cvFaq",
+          "cvClosing"
+        ],
+        "id": "cv-main",
+        "tabindex": -1
+      }
+    },
+    {
+      "id": "cvHeroEyebrow",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Bienestar íntimo, con acompañamiento",
+        "classes": "ank-m-0 ank-fontSize-0_7rem ank-fontWeight-500 ank-letterSpacing-0_2em ank-textTransform-uppercase"
+      }
+    },
+    {
+      "id": "cvHeroTitle",
+      "type": "text",
+      "config": {
+        "tag": "h1",
+        "text": "Succionador de rosa.\nA tu ritmo.",
+        "classes": "ank-fontFamily-GeorgiaCOMserif ank-fontWeight-400 ank-letterSpacing-MIN0_03em ank-m-0 ank-fontSize-2_7rem ank-fontSize-md-4_3rem ank-fontSize-lg-5rem ank-lineHeight-1_03 ank-whiteSpace-preMINline ank-color-titleColor"
+      }
+    },
+    {
+      "id": "cvHeroIntro",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Incluye una sesión orientativa en línea sobre uso y cuidados, con una profesional con maestría en educación sexual.",
+        "classes": "ank-m-0 ank-fontSize-1rem ank-fontWeight-400 ank-lineHeight-1_65 ank-color-textColor ank-fontSize-md-1_1rem ank-maxWidth-430px"
+      }
+    },
+    {
+      "id": "cvHeroCta",
+      "type": "button",
+      "config": {
+        "label": "Conocer mi producto  →",
+        "type": "button",
+        "classes": "ank-display-inlineMINflex ank-alignItems-center ank-justifyContent-center ank-gap-12px ank-minHeight-52px ank-paddingInline-28px ank-paddingBlock-14px ank-borderRadius-40px ank-bg-accentColor ank-color-white ank-border-0 ank-fontSize-1rem ank-fontWeight-500 ank-textDecoration-none ank-cursor-pointer ank-transition-transform__200ms ank-transformHover-translateYSDMIN2pxED ank-outlineOffset-5px"
+      },
+      "eventInstructions": "navigationToSection:producto"
+    },
+    {
+      "id": "cvHeroPrice",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Precio por definir",
+        "classes": "ank-m-0 ank-fontSize-1rem ank-fontWeight-400 ank-lineHeight-1_65 ank-color-textColor ank-fontSize-0_8rem"
+      }
+    },
+    {
+      "id": "cvHeroCopy",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-flex ank-flexDirection-column ank-gap-20px ank-flex-1 ank-minWidth-0 ank-paddingBlock-32px ank-paddingBlock-md-56px",
+        "components": [
+          "cvHeroEyebrow",
+          "cvHeroTitle",
+          "cvHeroIntro",
+          "cvHeroCta",
+          "cvHeroPrice"
+        ]
+      }
+    },
+    {
+      "id": "cvHeroImage",
+      "type": "media",
+      "config": {
+        "tag": "image",
+        "src": "https://assets.zoolandingpage.com.mx/catvelvet/shared/images/rose-top-review-20261028.png",
+        "alt": "Vista superior del succionador de rosa rojo sobre fondo rosa claro, editada a partir de la referencia del producto.",
+        "width": 1254,
+        "height": 1254,
+        "loading": "eager",
+        "fetchPriority": "high",
+        "decoding": "async",
+        "classes": "ank-display-block ank-width-100per ank-height-auto ank-borderRadius-160px__160px__8px__8px"
+      }
+    },
+    {
+      "id": "cvHeroVisual",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-flex-1 ank-minWidth-0 ank-width-100per ank-maxWidth-560px",
+        "components": [
+          "cvHeroImage"
+        ]
+      }
+    },
+    {
+      "id": "cvHeroFrame",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-width-100per ank-maxWidth-1200px ank-marginInline-auto ank-display-flex ank-flexDirection-column ank-flexDirection-md-row ank-gap-32px ank-gap-md-64px ank-alignItems-center ank-gap-16px ank-gap-md-32px",
+        "components": [
+          "cvHeroCopy",
+          "cvHeroVisual"
+        ]
+      }
+    },
+    {
+      "id": "cvHero",
+      "type": "container",
+      "config": {
+        "tag": "section",
+        "classes": "ank-bg-secondaryBgColor ank-paddingInline-24px ank-paddingInline-md-48px ank-paddingBottom-32px ank-paddingTop-0 ank-paddingTop-md-24px",
+        "components": [
+          "cvHeroFrame"
+        ],
+        "id": "inicio"
+      }
+    },
+    {
+      "id": "cvBenefit1",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "◇  Producto + orientación",
+        "classes": "ank-m-0 ank-fontSize-1rem ank-fontWeight-400 ank-lineHeight-1_65 ank-color-textColor ank-fontSize-0_9rem"
+      }
+    },
+    {
+      "id": "cvBenefit2",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "↗  Comprobante por WhatsApp",
+        "classes": "ank-m-0 ank-fontSize-1rem ank-fontWeight-400 ank-lineHeight-1_65 ank-color-textColor ank-fontSize-0_9rem"
+      }
+    },
+    {
+      "id": "cvBenefit3",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "□  Envíos a todo México",
+        "classes": "ank-m-0 ank-fontSize-1rem ank-fontWeight-400 ank-lineHeight-1_65 ank-color-textColor ank-fontSize-0_9rem"
+      }
+    },
+    {
+      "id": "cvBenefitsInner",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-width-100per ank-maxWidth-1200px ank-marginInline-auto ank-display-flex ank-flexWrap-wrap ank-justifyContent-spaceMINaround ank-gap-20px",
+        "components": [
+          "cvBenefit1",
+          "cvBenefit2",
+          "cvBenefit3"
+        ]
+      }
+    },
+    {
+      "id": "cvBenefits",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-padding-24px ank-borderBottom-1px__solid__HASHDFC8C5",
+        "components": [
+          "cvBenefitsInner"
+        ]
+      }
+    },
+    {
+      "id": "cvProductGallery",
+      "type": "interaction-scope",
+      "config": {
+        "scopeId": "cvProductViews",
+        "tag": "section",
+        "id": "cv-product-gallery",
+        "ariaLabel": "Galería del producto con tres vistas",
+        "initialValues": {
+          "view": "top"
+        },
+        "classes": "ank-display-flex ank-flexDirection-column ank-gap-20px ank-gap-16px ank-flex-1 ank-minWidth-0 ank-width-100per ank-maxWidth-520px",
+        "components": [
+          "cvGalleryStage",
+          "cvGallerySelectors",
+          "cvGalleryNote"
+        ]
+      }
+    },
+    {
+      "id": "cvProductEyebrow",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Tu producto",
+        "classes": "ank-m-0 ank-fontSize-0_7rem ank-fontWeight-500 ank-letterSpacing-0_2em ank-textTransform-uppercase"
+      }
+    },
+    {
+      "id": "cvProductTitle",
+      "type": "text",
+      "config": {
+        "tag": "h2",
+        "text": "Conoce tu succionador de rosa AZOI.",
+        "classes": "ank-fontFamily-GeorgiaCOMserif ank-fontWeight-400 ank-letterSpacing-MIN0_03em ank-m-0 ank-color-titleColor ank-fontSize-2_35rem ank-fontSize-md-3_25rem ank-lineHeight-1_08"
+      }
+    },
+    {
+      "id": "cvProductName",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Silicona · 10 modos de succión · Control por botón y app",
+        "classes": "ank-m-0 ank-fontSize-1rem ank-fontWeight-400 ank-lineHeight-1_65 ank-color-textColor ank-fontSize-1_1rem"
+      }
+    },
+    {
+      "id": "cvProductIntro",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Un succionador en forma de rosa para personas adultas, acompañado de orientación educativa sobre su uso y cuidados.",
+        "classes": "ank-m-0 ank-fontSize-1rem ank-fontWeight-400 ank-lineHeight-1_65 ank-color-textColor ank-maxWidth-440px"
+      }
+    },
+    {
+      "id": "cvProductPrice",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Precio pendiente",
+        "classes": "ank-m-0 ank-fontSize-1rem ank-fontWeight-400 ank-lineHeight-1_65 ank-color-textColor ank-fontSize-0_9rem"
+      }
+    },
+    {
+      "id": "cvOrderCta",
+      "type": "link",
+      "config": {
+        "href": "/pedido",
+        "text": "Preparar mi pedido  →",
+        "classes": "ank-display-inlineMINflex ank-alignItems-center ank-justifyContent-center ank-gap-12px ank-minHeight-52px ank-paddingInline-28px ank-paddingBlock-14px ank-borderRadius-40px ank-bg-accentColor ank-color-white ank-border-0 ank-fontSize-1rem ank-fontWeight-500 ank-textDecoration-none ank-cursor-pointer ank-transition-transform__200ms ank-transformHover-translateYSDMIN2pxED ank-outlineOffset-5px",
+        "scrollRestoration": {
+          "mode": "top"
+        }
+      }
+    },
+    {
+      "id": "cvProductDemo",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "El formulario de envío guarda tus respuestas. Esta vista previa no confirma una compra.",
+        "classes": "ank-m-0 ank-fontSize-1rem ank-fontWeight-400 ank-lineHeight-1_65 ank-color-textColor ank-fontSize-0_78rem"
+      }
+    },
+    {
+      "id": "cvProductCopy",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-flex ank-flexDirection-column ank-gap-20px ank-flex-1 ank-minWidth-0",
+        "components": [
+          "cvProductEyebrow",
+          "cvProductTitle",
+          "cvProductName",
+          "cvProductIntro",
+          "cvTechnicalFacts",
+          "cvProductPrice",
+          "cvOrderCta",
+          "cvProductDemo"
+        ]
+      }
+    },
+    {
+      "id": "cvProductFrame",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-width-100per ank-maxWidth-1200px ank-marginInline-auto ank-display-flex ank-flexDirection-column ank-flexDirection-md-row ank-gap-32px ank-gap-md-64px ank-alignItems-center",
+        "components": [
+          "cvProductGallery",
+          "cvProductCopy"
+        ]
+      }
+    },
+    {
+      "id": "cvProduct",
+      "type": "container",
+      "config": {
+        "tag": "section",
+        "classes": "ank-paddingInline-24px ank-paddingInline-md-48px ank-paddingBlock-64px ank-paddingBlock-md-88px",
+        "components": [
+          "cvProductFrame"
+        ],
+        "id": "producto"
+      }
+    },
+    {
+      "id": "cvGalleryImagetop",
+      "type": "media",
+      "config": {
+        "tag": "image",
+        "src": "https://assets.zoolandingpage.com.mx/catvelvet/shared/images/rose-top-review-20261028.png",
+        "alt": "Acercamiento superior: pétalos y abertura del succionador de rosa rojo sobre fondo rosa claro.",
+        "width": 1254,
+        "height": 1254,
+        "loading": "lazy",
+        "decoding": "async",
+        "classes": "ank-display-block ank-width-100per ank-height-auto ank-borderRadius-16px"
+      }
+    },
+    {
+      "id": "cvGalleryCaptiontop",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Vista superior · Pétalos y abertura",
+        "classes": "ank-m-0 ank-fontSize-1rem ank-fontWeight-400 ank-lineHeight-1_65 ank-color-textColor ank-fontSize-0_8rem ank-paddingTop-12px"
+      }
+    },
+    {
+      "id": "cvGalleryPaneltop",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-width-100per",
+        "components": [
+          "cvGalleryImagetop",
+          "cvGalleryCaptiontop"
+        ]
+      },
+      "condition": "all:scopeEq,values.view,top"
+    },
+    {
+      "id": "cvGalleryThumbtop",
+      "type": "media",
+      "config": {
+        "tag": "image",
+        "src": "https://assets.zoolandingpage.com.mx/catvelvet/shared/images/rose-top-review-20261028.png",
+        "alt": "",
+        "width": 1254,
+        "height": 1254,
+        "loading": "lazy",
+        "decoding": "async",
+        "classes": "ank-display-block ank-width-100per ank-height-auto ank-borderRadius-8px"
+      }
+    },
+    {
+      "id": "cvGalleryLabeltop",
+      "type": "text",
+      "config": {
+        "tag": "span",
+        "text": "Superior",
+        "classes": "ank-m-0 ank-fontSize-0_8rem ank-lineHeight-1_4 ank-fontWeight-400"
+      }
+    },
+    {
+      "id": "cvGallerySelecttop",
+      "type": "button",
+      "config": {
+        "type": "button",
+        "ariaLabel": "Mostrar vista superior",
+        "ariaControls": "cv-gallery-preview",
+        "classes": "ank-d-flex ank-fd-column ank-ai-center ank-gap-6px ank-w-100per ank-wmn-0 ank-p-6px ank-bg-bgColor ank-color-textColor ank-bo-2px__solid ank-rounded-12px ank-cursor-pointer ank-olo-3px ank-bco-HASHDFC8C5",
+        "components": [
+          "cvGalleryThumbtop",
+          "cvGalleryLabeltop"
+        ]
+      },
+      "eventInstructions": "setScopeValue:view,top",
+      "valueInstructions": "set:config.classes,when,\"all:scopeEq,values.view,top\",\"ank-d-flex ank-fd-column ank-ai-center ank-gap-6px ank-w-100per ank-wmn-0 ank-p-6px ank-bg-bgColor ank-color-textColor ank-bo-2px__solid ank-rounded-12px ank-cursor-pointer ank-olo-3px ank-bco-accentColor\",\"ank-d-flex ank-fd-column ank-ai-center ank-gap-6px ank-w-100per ank-wmn-0 ank-p-6px ank-bg-bgColor ank-color-textColor ank-bo-2px__solid ank-rounded-12px ank-cursor-pointer ank-olo-3px ank-bco-HASHDFC8C5\";set:config.ariaLabel,when,\"all:scopeEq,values.view,top\",\"Vista superior seleccionada\",\"Mostrar vista superior\""
+    },
+    {
+      "id": "cvGalleryImageside",
+      "type": "media",
+      "config": {
+        "tag": "image",
+        "src": "https://assets.zoolandingpage.com.mx/catvelvet/shared/images/rose-side-review-20261028.png",
+        "alt": "Vista lateral inclinada del succionador de rosa rojo y su botón sobre fondo blanco cálido.",
+        "width": 1254,
+        "height": 1254,
+        "loading": "lazy",
+        "decoding": "async",
+        "classes": "ank-display-block ank-width-100per ank-height-auto ank-borderRadius-16px"
+      }
+    },
+    {
+      "id": "cvGalleryCaptionside",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Vista lateral · Forma y botón",
+        "classes": "ank-m-0 ank-fontSize-1rem ank-fontWeight-400 ank-lineHeight-1_65 ank-color-textColor ank-fontSize-0_8rem ank-paddingTop-12px"
+      }
+    },
+    {
+      "id": "cvGalleryPanelside",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-width-100per",
+        "components": [
+          "cvGalleryImageside",
+          "cvGalleryCaptionside"
+        ]
+      },
+      "condition": "all:scopeEq,values.view,side"
+    },
+    {
+      "id": "cvGalleryThumbside",
+      "type": "media",
+      "config": {
+        "tag": "image",
+        "src": "https://assets.zoolandingpage.com.mx/catvelvet/shared/images/rose-side-review-20261028.png",
+        "alt": "",
+        "width": 1254,
+        "height": 1254,
+        "loading": "lazy",
+        "decoding": "async",
+        "classes": "ank-display-block ank-width-100per ank-height-auto ank-borderRadius-8px"
+      }
+    },
+    {
+      "id": "cvGalleryLabelside",
+      "type": "text",
+      "config": {
+        "tag": "span",
+        "text": "Lateral",
+        "classes": "ank-m-0 ank-fontSize-0_8rem ank-lineHeight-1_4 ank-fontWeight-400"
+      }
+    },
+    {
+      "id": "cvGallerySelectside",
+      "type": "button",
+      "config": {
+        "type": "button",
+        "ariaLabel": "Mostrar vista lateral",
+        "ariaControls": "cv-gallery-preview",
+        "classes": "ank-d-flex ank-fd-column ank-ai-center ank-gap-6px ank-w-100per ank-wmn-0 ank-p-6px ank-bg-bgColor ank-color-textColor ank-bo-2px__solid ank-rounded-12px ank-cursor-pointer ank-olo-3px ank-bco-HASHDFC8C5",
+        "components": [
+          "cvGalleryThumbside",
+          "cvGalleryLabelside"
+        ]
+      },
+      "eventInstructions": "setScopeValue:view,side",
+      "valueInstructions": "set:config.classes,when,\"all:scopeEq,values.view,side\",\"ank-d-flex ank-fd-column ank-ai-center ank-gap-6px ank-w-100per ank-wmn-0 ank-p-6px ank-bg-bgColor ank-color-textColor ank-bo-2px__solid ank-rounded-12px ank-cursor-pointer ank-olo-3px ank-bco-accentColor\",\"ank-d-flex ank-fd-column ank-ai-center ank-gap-6px ank-w-100per ank-wmn-0 ank-p-6px ank-bg-bgColor ank-color-textColor ank-bo-2px__solid ank-rounded-12px ank-cursor-pointer ank-olo-3px ank-bco-HASHDFC8C5\";set:config.ariaLabel,when,\"all:scopeEq,values.view,side\",\"Vista lateral seleccionada\",\"Mostrar vista lateral\""
+    },
+    {
+      "id": "cvGalleryImagescale",
+      "type": "media",
+      "config": {
+        "tag": "image",
+        "src": "https://assets.zoolandingpage.com.mx/catvelvet/shared/images/rose-scale-review-20261028.png",
+        "alt": "Succionador de rosa rojo junto a un labial sin marca como referencia visual sobre fondo durazno. Labial no incluido.",
+        "width": 1254,
+        "height": 1254,
+        "loading": "lazy",
+        "decoding": "async",
+        "classes": "ank-display-block ank-width-100per ank-height-auto ank-borderRadius-16px"
+      }
+    },
+    {
+      "id": "cvGalleryCaptionscale",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Escala ilustrativa · Labial no incluido; medidas por confirmar",
+        "classes": "ank-m-0 ank-fontSize-1rem ank-fontWeight-400 ank-lineHeight-1_65 ank-color-textColor ank-fontSize-0_8rem ank-paddingTop-12px"
+      }
+    },
+    {
+      "id": "cvGalleryPanelscale",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-width-100per",
+        "components": [
+          "cvGalleryImagescale",
+          "cvGalleryCaptionscale"
+        ]
+      },
+      "condition": "all:scopeEq,values.view,scale"
+    },
+    {
+      "id": "cvGalleryThumbscale",
+      "type": "media",
+      "config": {
+        "tag": "image",
+        "src": "https://assets.zoolandingpage.com.mx/catvelvet/shared/images/rose-scale-review-20261028.png",
+        "alt": "",
+        "width": 1254,
+        "height": 1254,
+        "loading": "lazy",
+        "decoding": "async",
+        "classes": "ank-display-block ank-width-100per ank-height-auto ank-borderRadius-8px"
+      }
+    },
+    {
+      "id": "cvGalleryLabelscale",
+      "type": "text",
+      "config": {
+        "tag": "span",
+        "text": "Escala",
+        "classes": "ank-m-0 ank-fontSize-0_8rem ank-lineHeight-1_4 ank-fontWeight-400"
+      }
+    },
+    {
+      "id": "cvGallerySelectscale",
+      "type": "button",
+      "config": {
+        "type": "button",
+        "ariaLabel": "Mostrar referencia de escala",
+        "ariaControls": "cv-gallery-preview",
+        "classes": "ank-d-flex ank-fd-column ank-ai-center ank-gap-6px ank-w-100per ank-wmn-0 ank-p-6px ank-bg-bgColor ank-color-textColor ank-bo-2px__solid ank-rounded-12px ank-cursor-pointer ank-olo-3px ank-bco-HASHDFC8C5",
+        "components": [
+          "cvGalleryThumbscale",
+          "cvGalleryLabelscale"
+        ]
+      },
+      "eventInstructions": "setScopeValue:view,scale",
+      "valueInstructions": "set:config.classes,when,\"all:scopeEq,values.view,scale\",\"ank-d-flex ank-fd-column ank-ai-center ank-gap-6px ank-w-100per ank-wmn-0 ank-p-6px ank-bg-bgColor ank-color-textColor ank-bo-2px__solid ank-rounded-12px ank-cursor-pointer ank-olo-3px ank-bco-accentColor\",\"ank-d-flex ank-fd-column ank-ai-center ank-gap-6px ank-w-100per ank-wmn-0 ank-p-6px ank-bg-bgColor ank-color-textColor ank-bo-2px__solid ank-rounded-12px ank-cursor-pointer ank-olo-3px ank-bco-HASHDFC8C5\";set:config.ariaLabel,when,\"all:scopeEq,values.view,scale\",\"Referencia de escala seleccionada\",\"Mostrar referencia de escala\""
+    },
+    {
+      "id": "cvGalleryStage",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-width-100per",
+        "components": [
+          "cvGalleryPaneltop",
+          "cvGalleryPanelside",
+          "cvGalleryPanelscale"
+        ],
+        "id": "cv-gallery-preview",
+        "role": "status",
+        "ariaLabel": "Vista del producto seleccionada"
+      }
+    },
+    {
+      "id": "cvGallerySelectors",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-grid ank-gridTemplateColumns-repeatSD3COM1frED ank-gap-12px",
+        "components": [
+          "cvGallerySelecttop",
+          "cvGallerySelectside",
+          "cvGallerySelectscale"
+        ],
+        "role": "group",
+        "ariaLabel": "Elegir una vista del producto"
+      }
+    },
+    {
+      "id": "cvGalleryNote",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Imágenes de referencia editadas con IA para adaptar fondos y retirar elementos promocionales.",
+        "classes": "ank-m-0 ank-fontSize-1rem ank-fontWeight-400 ank-lineHeight-1_65 ank-color-textColor ank-fontSize-0_72rem"
+      }
+    },
+    {
+      "id": "cvFactLabel0",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Marca",
+        "classes": "ank-m-0 ank-fontSize-1rem ank-fontWeight-400 ank-lineHeight-1_65 ank-color-textColor ank-fontSize-0_85rem ank-fontWeight-500"
+      }
+    },
+    {
+      "id": "cvFactValue0",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "AZOI",
+        "classes": "ank-m-0 ank-fontSize-1rem ank-fontWeight-400 ank-lineHeight-1_65 ank-color-textColor ank-fontSize-0_85rem"
+      }
+    },
+    {
+      "id": "cvFactRow0",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-grid ank-gridTemplateColumns-1fr__2fr ank-gap-16px ank-paddingBlock-12px ank-borderBottom-1px__solid__HASHDFC8C5",
+        "components": [
+          "cvFactLabel0",
+          "cvFactValue0"
+        ]
+      }
+    },
+    {
+      "id": "cvFactLabel1",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Diseño",
+        "classes": "ank-m-0 ank-fontSize-1rem ank-fontWeight-400 ank-lineHeight-1_65 ank-color-textColor ank-fontSize-0_85rem ank-fontWeight-500"
+      }
+    },
+    {
+      "id": "cvFactValue1",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Rosa",
+        "classes": "ank-m-0 ank-fontSize-1rem ank-fontWeight-400 ank-lineHeight-1_65 ank-color-textColor ank-fontSize-0_85rem"
+      }
+    },
+    {
+      "id": "cvFactRow1",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-grid ank-gridTemplateColumns-1fr__2fr ank-gap-16px ank-paddingBlock-12px ank-borderBottom-1px__solid__HASHDFC8C5",
+        "components": [
+          "cvFactLabel1",
+          "cvFactValue1"
+        ]
+      }
+    },
+    {
+      "id": "cvFactLabel2",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Color",
+        "classes": "ank-m-0 ank-fontSize-1rem ank-fontWeight-400 ank-lineHeight-1_65 ank-color-textColor ank-fontSize-0_85rem ank-fontWeight-500"
+      }
+    },
+    {
+      "id": "cvFactValue2",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Rojo",
+        "classes": "ank-m-0 ank-fontSize-1rem ank-fontWeight-400 ank-lineHeight-1_65 ank-color-textColor ank-fontSize-0_85rem"
+      }
+    },
+    {
+      "id": "cvFactRow2",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-grid ank-gridTemplateColumns-1fr__2fr ank-gap-16px ank-paddingBlock-12px ank-borderBottom-1px__solid__HASHDFC8C5",
+        "components": [
+          "cvFactLabel2",
+          "cvFactValue2"
+        ]
+      }
+    },
+    {
+      "id": "cvFactLabel3",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Material",
+        "classes": "ank-m-0 ank-fontSize-1rem ank-fontWeight-400 ank-lineHeight-1_65 ank-color-textColor ank-fontSize-0_85rem ank-fontWeight-500"
+      }
+    },
+    {
+      "id": "cvFactValue3",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Silicona",
+        "classes": "ank-m-0 ank-fontSize-1rem ank-fontWeight-400 ank-lineHeight-1_65 ank-color-textColor ank-fontSize-0_85rem"
+      }
+    },
+    {
+      "id": "cvFactRow3",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-grid ank-gridTemplateColumns-1fr__2fr ank-gap-16px ank-paddingBlock-12px ank-borderBottom-1px__solid__HASHDFC8C5",
+        "components": [
+          "cvFactLabel3",
+          "cvFactValue3"
+        ]
+      }
+    },
+    {
+      "id": "cvFactLabel4",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Succión",
+        "classes": "ank-m-0 ank-fontSize-1rem ank-fontWeight-400 ank-lineHeight-1_65 ank-color-textColor ank-fontSize-0_85rem ank-fontWeight-500"
+      }
+    },
+    {
+      "id": "cvFactValue4",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "10 modos de velocidad variable",
+        "classes": "ank-m-0 ank-fontSize-1rem ank-fontWeight-400 ank-lineHeight-1_65 ank-color-textColor ank-fontSize-0_85rem"
+      }
+    },
+    {
+      "id": "cvFactRow4",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-grid ank-gridTemplateColumns-1fr__2fr ank-gap-16px ank-paddingBlock-12px ank-borderBottom-1px__solid__HASHDFC8C5",
+        "components": [
+          "cvFactLabel4",
+          "cvFactValue4"
+        ]
+      }
+    },
+    {
+      "id": "cvFactLabel5",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Control manual",
+        "classes": "ank-m-0 ank-fontSize-1rem ank-fontWeight-400 ank-lineHeight-1_65 ank-color-textColor ank-fontSize-0_85rem ank-fontWeight-500"
+      }
+    },
+    {
+      "id": "cvFactValue5",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Un botón",
+        "classes": "ank-m-0 ank-fontSize-1rem ank-fontWeight-400 ank-lineHeight-1_65 ank-color-textColor ank-fontSize-0_85rem"
+      }
+    },
+    {
+      "id": "cvFactRow5",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-grid ank-gridTemplateColumns-1fr__2fr ank-gap-16px ank-paddingBlock-12px ank-borderBottom-1px__solid__HASHDFC8C5",
+        "components": [
+          "cvFactLabel5",
+          "cvFactValue5"
+        ]
+      }
+    },
+    {
+      "id": "cvFactLabel6",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Control por app",
+        "classes": "ank-m-0 ank-fontSize-1rem ank-fontWeight-400 ank-lineHeight-1_65 ank-color-textColor ank-fontSize-0_85rem ank-fontWeight-500"
+      }
+    },
+    {
+      "id": "cvFactValue6",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Aplicación móvil",
+        "classes": "ank-m-0 ank-fontSize-1rem ank-fontWeight-400 ank-lineHeight-1_65 ank-color-textColor ank-fontSize-0_85rem"
+      }
+    },
+    {
+      "id": "cvFactRow6",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-grid ank-gridTemplateColumns-1fr__2fr ank-gap-16px ank-paddingBlock-12px ank-borderBottom-1px__solid__HASHDFC8C5",
+        "components": [
+          "cvFactLabel6",
+          "cvFactValue6"
+        ]
+      }
+    },
+    {
+      "id": "cvFactLabel7",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Nivel sonoro",
+        "classes": "ank-m-0 ank-fontSize-1rem ank-fontWeight-400 ank-lineHeight-1_65 ank-color-textColor ank-fontSize-0_85rem ank-fontWeight-500"
+      }
+    },
+    {
+      "id": "cvFactValue7",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Menos de 40 dB",
+        "classes": "ank-m-0 ank-fontSize-1rem ank-fontWeight-400 ank-lineHeight-1_65 ank-color-textColor ank-fontSize-0_85rem"
+      }
+    },
+    {
+      "id": "cvFactRow7",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-grid ank-gridTemplateColumns-1fr__2fr ank-gap-16px ank-paddingBlock-12px ank-borderBottom-1px__solid__HASHDFC8C5",
+        "components": [
+          "cvFactLabel7",
+          "cvFactValue7"
+        ]
+      }
+    },
+    {
+      "id": "cvFactLabel8",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Resistencia al agua",
+        "classes": "ank-m-0 ank-fontSize-1rem ank-fontWeight-400 ank-lineHeight-1_65 ank-color-textColor ank-fontSize-0_85rem ank-fontWeight-500"
+      }
+    },
+    {
+      "id": "cvFactValue8",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Resistente al agua · Grado IP por confirmar",
+        "classes": "ank-m-0 ank-fontSize-1rem ank-fontWeight-400 ank-lineHeight-1_65 ank-color-textColor ank-fontSize-0_85rem"
+      }
+    },
+    {
+      "id": "cvFactRow8",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-grid ank-gridTemplateColumns-1fr__2fr ank-gap-16px ank-paddingBlock-12px ank-borderBottom-1px__solid__HASHDFC8C5",
+        "components": [
+          "cvFactLabel8",
+          "cvFactValue8"
+        ]
+      }
+    },
+    {
+      "id": "cvTechnicalTitle",
+      "type": "text",
+      "config": {
+        "tag": "h3",
+        "text": "Detalles técnicos",
+        "classes": "ank-fontFamily-GeorgiaCOMserif ank-fontWeight-400 ank-letterSpacing-MIN0_03em ank-m-0 ank-fontSize-1_5rem"
+      }
+    },
+    {
+      "id": "cvTechnicalPending",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Por confirmar con el manual o una unidad: contenido de la caja, medidas, peso, tipo y tiempo de carga, autonomía, nombre y compatibilidad de la app, inmersión y cuidados.",
+        "classes": "ank-m-0 ank-fontSize-1rem ank-fontWeight-400 ank-lineHeight-1_65 ank-color-textColor ank-fontSize-0_8rem ank-paddingTop-12px"
+      }
+    },
+    {
+      "id": "cvTechnicalFacts",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-flex ank-flexDirection-column ank-gap-20px ank-gap-0",
+        "components": [
+          "cvTechnicalTitle",
+          "cvFactRow0",
+          "cvFactRow1",
+          "cvFactRow2",
+          "cvFactRow3",
+          "cvFactRow4",
+          "cvFactRow5",
+          "cvFactRow6",
+          "cvFactRow7",
+          "cvFactRow8",
+          "cvTechnicalPending"
+        ]
+      }
+    },
+    {
+      "id": "cvOrientationEyebrow",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Acompañamiento educativo",
+        "classes": "ank-m-0 ank-fontSize-0_7rem ank-fontWeight-500 ank-letterSpacing-0_2em ank-textTransform-uppercase"
+      }
+    },
+    {
+      "id": "cvOrientationTitle",
+      "type": "text",
+      "config": {
+        "tag": "h2",
+        "text": "Sesión orientativa\nen línea incluida.",
+        "classes": "ank-fontFamily-GeorgiaCOMserif ank-fontWeight-400 ank-letterSpacing-MIN0_03em ank-m-0 ank-color-titleColor ank-fontSize-2_35rem ank-fontSize-md-3_25rem ank-lineHeight-1_08 ank-whiteSpace-preMINline"
+      }
+    },
+    {
+      "id": "cvOrientationIntro",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "La compra del producto incluye una sesión en línea con una profesional con maestría en educación sexual, para conocer su uso, revisar sus cuidados y resolver tus dudas. Es una orientación educativa.",
+        "classes": "ank-m-0 ank-fontSize-1rem ank-fontWeight-400 ank-lineHeight-1_65 ank-color-textColor ank-maxWidth-560px"
+      }
+    },
+    {
+      "id": "cvTopic1",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Conocer tu producto",
+        "classes": "ank-m-0 ank-fontSize-1rem ank-fontWeight-400 ank-lineHeight-1_65 ank-color-textColor"
+      }
+    },
+    {
+      "id": "cvTopic2",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Resolver tus dudas",
+        "classes": "ank-m-0 ank-fontSize-1rem ank-fontWeight-400 ank-lineHeight-1_65 ank-color-textColor"
+      }
+    },
+    {
+      "id": "cvTopic3",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Aprender a cuidarlo",
+        "classes": "ank-m-0 ank-fontSize-1rem ank-fontWeight-400 ank-lineHeight-1_65 ank-color-textColor"
+      }
+    },
+    {
+      "id": "cvTopics",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-flex ank-flexWrap-wrap ank-gap-20px ank-paddingBlock-16px",
+        "components": [
+          "cvTopic1",
+          "cvTopic2",
+          "cvTopic3"
+        ]
+      }
+    },
+    {
+      "id": "cvSessionPending",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Duración, disponibilidad y condiciones de agenda pendientes.",
+        "classes": "ank-m-0 ank-fontSize-1rem ank-fontWeight-400 ank-lineHeight-1_65 ank-color-textColor ank-fontSize-0_8rem"
+      }
+    },
+    {
+      "id": "cvOrientationCopy",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-flex ank-flexDirection-column ank-gap-20px ank-flex-1 ank-minWidth-0",
+        "components": [
+          "cvOrientationEyebrow",
+          "cvOrientationTitle",
+          "cvOrientationIntro",
+          "cvTopics",
+          "cvSessionPending"
+        ]
+      }
+    },
+    {
+      "id": "cvBioEyebrow",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Quién te acompaña",
+        "classes": "ank-m-0 ank-fontSize-0_7rem ank-fontWeight-500 ank-letterSpacing-0_2em ank-textTransform-uppercase"
+      }
+    },
+    {
+      "id": "cvBioTitle",
+      "type": "text",
+      "config": {
+        "tag": "h3",
+        "text": "Mtra. Jethzabel Rojas",
+        "classes": "ank-fontFamily-GeorgiaCOMserif ank-fontWeight-400 ank-letterSpacing-MIN0_03em ank-m-0 ank-fontSize-2rem ank-lineHeight-1_15"
+      }
+    },
+    {
+      "id": "cvBioRole",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Psicóloga clínica y sexóloga",
+        "classes": "ank-m-0 ank-fontSize-1rem ank-fontWeight-400 ank-lineHeight-1_65 ank-color-textColor ank-fontWeight-500"
+      }
+    },
+    {
+      "id": "cvBioIntro",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Con maestría en educación sexual y una amplia trayectoria en el acompañamiento integral.",
+        "classes": "ank-m-0 ank-fontSize-1rem ank-fontWeight-400 ank-lineHeight-1_65 ank-color-textColor"
+      }
+    },
+    {
+      "id": "cvBioCredential",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Licenciatura en Psicología · Cédula profesional 10754333",
+        "classes": "ank-m-0 ank-fontSize-1rem ank-fontWeight-400 ank-lineHeight-1_65 ank-color-textColor ank-fontSize-0_85rem"
+      }
+    },
+    {
+      "id": "cvBioSpecialtiesTitle",
+      "type": "text",
+      "config": {
+        "tag": "h4",
+        "text": "Áreas de especialización",
+        "classes": "ank-m-0 ank-fontSize-1rem ank-fontWeight-400 ank-lineHeight-1_65 ank-color-textColor ank-fontWeight-500"
+      }
+    },
+    {
+      "id": "cvBioSpecialty1",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Terapia de pareja y familiar con enfoque sistémico",
+        "classes": "ank-m-0 ank-fontSize-1rem ank-fontWeight-400 ank-lineHeight-1_65 ank-color-textColor ank-fontSize-0_9rem"
+      }
+    },
+    {
+      "id": "cvBioSpecialty2",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Cuidados paliativos y bioética",
+        "classes": "ank-m-0 ank-fontSize-1rem ank-fontWeight-400 ank-lineHeight-1_65 ank-color-textColor ank-fontSize-0_9rem"
+      }
+    },
+    {
+      "id": "cvBioSpecialty3",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Sexología clínica",
+        "classes": "ank-m-0 ank-fontSize-1rem ank-fontWeight-400 ank-lineHeight-1_65 ank-color-textColor ank-fontSize-0_9rem"
+      }
+    },
+    {
+      "id": "cvBioSpecialty4",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Educación sexual",
+        "classes": "ank-m-0 ank-fontSize-1rem ank-fontWeight-400 ank-lineHeight-1_65 ank-color-textColor ank-fontSize-0_9rem"
+      }
+    },
+    {
+      "id": "cvBioSpecialties",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-flex ank-flexDirection-column ank-gap-20px ank-gap-8px",
+        "components": [
+          "cvBioSpecialty1",
+          "cvBioSpecialty2",
+          "cvBioSpecialty3",
+          "cvBioSpecialty4"
+        ]
+      }
+    },
+    {
+      "id": "cvBio",
+      "type": "container",
+      "config": {
+        "tag": "section",
+        "classes": "ank-display-flex ank-flexDirection-column ank-gap-20px ank-gap-16px ank-flex-1 ank-minWidth-0 ank-width-100per ank-bg-bgColor ank-padding-24px ank-padding-md-32px ank-borderRadius-16px",
+        "components": [
+          "cvBioEyebrow",
+          "cvBioTitle",
+          "cvBioRole",
+          "cvBioIntro",
+          "cvBioCredential",
+          "cvBioSpecialtiesTitle",
+          "cvBioSpecialties"
+        ],
+        "id": "jethzabel-rojas",
+        "ariaLabel": "Presentación de la Mtra. Jethzabel Rojas"
+      }
+    },
+    {
+      "id": "cvOrientationFrame",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-width-100per ank-maxWidth-1200px ank-marginInline-auto ank-display-flex ank-flexDirection-column ank-flexDirection-md-row ank-gap-32px ank-gap-md-64px ank-alignItems-center",
+        "components": [
+          "cvOrientationCopy",
+          "cvBio"
+        ]
+      }
+    },
+    {
+      "id": "cvOrientation",
+      "type": "container",
+      "config": {
+        "tag": "section",
+        "classes": "ank-paddingInline-24px ank-paddingInline-md-48px ank-paddingBlock-64px ank-paddingBlock-md-88px ank-bg-HASHF5E1E4",
+        "components": [
+          "cvOrientationFrame",
+          "cvAgenda"
+        ],
+        "id": "orientacion"
+      }
+    },
+    {
+      "id": "cvAgendaEyebrow",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Después de validar tu pago",
+        "classes": "ank-m-0 ank-fontSize-0_7rem ank-fontWeight-500 ank-letterSpacing-0_2em ank-textTransform-uppercase"
+      }
+    },
+    {
+      "id": "cvAgendaTitle",
+      "type": "text",
+      "config": {
+        "tag": "h3",
+        "text": "Agenda tu sesión orientativa.",
+        "classes": "ank-fontFamily-GeorgiaCOMserif ank-fontWeight-400 ank-letterSpacing-MIN0_03em ank-m-0 ank-fontSize-2rem ank-fontSize-md-2_5rem ank-lineHeight-1_15"
+      }
+    },
+    {
+      "id": "cvAgendaIntro",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Cuando el equipo confirme tu pago, te compartirá por WhatsApp el enlace de Calendly para agendar tu sesión orientativa en línea.",
+        "classes": "ank-m-0 ank-fontSize-1rem ank-fontWeight-400 ank-lineHeight-1_65 ank-color-textColor ank-maxWidth-720px"
+      }
+    },
+    {
+      "id": "cvAgendaNumber1",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "01",
+        "classes": "ank-fontFamily-GeorgiaCOMserif ank-fontWeight-400 ank-letterSpacing-MIN0_03em ank-m-0 ank-fontSize-2rem ank-color-accentColor"
+      }
+    },
+    {
+      "id": "cvAgendaStepTitle1",
+      "type": "text",
+      "config": {
+        "tag": "h4",
+        "text": "Recibe tu invitación",
+        "classes": "ank-fontFamily-GeorgiaCOMserif ank-fontWeight-400 ank-letterSpacing-MIN0_03em ank-m-0 ank-fontSize-1_3rem"
+      }
+    },
+    {
+      "id": "cvAgendaStepText1",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "El equipo valida el pago y te envía la agenda en el mismo chat.",
+        "classes": "ank-m-0 ank-fontSize-1rem ank-fontWeight-400 ank-lineHeight-1_65 ank-color-textColor ank-fontSize-0_9rem"
+      }
+    },
+    {
+      "id": "cvAgendaStep1",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-flex ank-flexDirection-column ank-gap-20px ank-gap-8px",
+        "components": [
+          "cvAgendaNumber1",
+          "cvAgendaStepTitle1",
+          "cvAgendaStepText1"
+        ]
+      }
+    },
+    {
+      "id": "cvAgendaNumber2",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "02",
+        "classes": "ank-fontFamily-GeorgiaCOMserif ank-fontWeight-400 ank-letterSpacing-MIN0_03em ank-m-0 ank-fontSize-2rem ank-color-accentColor"
+      }
+    },
+    {
+      "id": "cvAgendaStepTitle2",
+      "type": "text",
+      "config": {
+        "tag": "h4",
+        "text": "Elige tu horario",
+        "classes": "ank-fontFamily-GeorgiaCOMserif ank-fontWeight-400 ank-letterSpacing-MIN0_03em ank-m-0 ank-fontSize-1_3rem"
+      }
+    },
+    {
+      "id": "cvAgendaStepText2",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Abre Calendly y elige entre los horarios disponibles. Revisa la zona horaria antes de confirmar.",
+        "classes": "ank-m-0 ank-fontSize-1rem ank-fontWeight-400 ank-lineHeight-1_65 ank-color-textColor ank-fontSize-0_9rem"
+      }
+    },
+    {
+      "id": "cvAgendaStep2",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-flex ank-flexDirection-column ank-gap-20px ank-gap-8px",
+        "components": [
+          "cvAgendaNumber2",
+          "cvAgendaStepTitle2",
+          "cvAgendaStepText2"
+        ]
+      }
+    },
+    {
+      "id": "cvAgendaNumber3",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "03",
+        "classes": "ank-fontFamily-GeorgiaCOMserif ank-fontWeight-400 ank-letterSpacing-MIN0_03em ank-m-0 ank-fontSize-2rem ank-color-accentColor"
+      }
+    },
+    {
+      "id": "cvAgendaStepTitle3",
+      "type": "text",
+      "config": {
+        "tag": "h4",
+        "text": "Confirma tu sesión",
+        "classes": "ank-fontFamily-GeorgiaCOMserif ank-fontWeight-400 ank-letterSpacing-MIN0_03em ank-m-0 ank-fontSize-1_3rem"
+      }
+    },
+    {
+      "id": "cvAgendaStepText3",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Completa la reserva y conserva la confirmación con la fecha y las indicaciones para conectarte.",
+        "classes": "ank-m-0 ank-fontSize-1rem ank-fontWeight-400 ank-lineHeight-1_65 ank-color-textColor ank-fontSize-0_9rem"
+      }
+    },
+    {
+      "id": "cvAgendaStep3",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-flex ank-flexDirection-column ank-gap-20px ank-gap-8px",
+        "components": [
+          "cvAgendaNumber3",
+          "cvAgendaStepTitle3",
+          "cvAgendaStepText3"
+        ]
+      }
+    },
+    {
+      "id": "cvAgendaSteps",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-grid ank-gridTemplateColumns-1fr ank-gridTemplateColumns-md-repeatSD3COM1frED ank-gap-28px",
+        "components": [
+          "cvAgendaStep1",
+          "cvAgendaStep2",
+          "cvAgendaStep3"
+        ]
+      }
+    },
+    {
+      "id": "cvCalendlyPending",
+      "type": "button",
+      "config": {
+        "type": "button",
+        "label": "Agendar en Calendly",
+        "disabled": true,
+        "disabledClasses": "ank-opacity-0_55 ank-cursor-notMINallowed",
+        "classes": "ank-display-inlineMINflex ank-alignItems-center ank-justifyContent-center ank-gap-12px ank-minHeight-52px ank-paddingInline-28px ank-paddingBlock-14px ank-borderRadius-40px ank-bg-accentColor ank-color-white ank-border-0 ank-fontSize-1rem ank-fontWeight-500 ank-textDecoration-none ank-cursor-pointer ank-transition-transform__200ms ank-transformHover-translateYSDMIN2pxED ank-outlineOffset-5px"
+      }
+    },
+    {
+      "id": "cvCalendlyPendingNote",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Enlace de agenda pendiente. Esta vista previa no reserva sesiones. La invitación se compartirá después de validar el pago.",
+        "classes": "ank-m-0 ank-fontSize-1rem ank-fontWeight-400 ank-lineHeight-1_65 ank-color-textColor ank-fontSize-0_85rem"
+      }
+    },
+    {
+      "id": "cvAgendaTerms",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Duración de la sesión, disponibilidad y condiciones para cambios o cancelaciones por confirmar.",
+        "classes": "ank-m-0 ank-fontSize-1rem ank-fontWeight-400 ank-lineHeight-1_65 ank-color-textColor ank-fontSize-0_8rem"
+      }
+    },
+    {
+      "id": "cvAgenda",
+      "type": "container",
+      "config": {
+        "tag": "section",
+        "classes": "ank-width-100per ank-maxWidth-1200px ank-marginInline-auto ank-display-flex ank-flexDirection-column ank-gap-20px ank-gap-24px ank-marginTop-56px ank-paddingTop-40px ank-borderTop-1px__solid__HASHDFC8C5",
+        "components": [
+          "cvAgendaEyebrow",
+          "cvAgendaTitle",
+          "cvAgendaIntro",
+          "cvAgendaSteps",
+          "cvCalendlyPending",
+          "cvCalendlyPendingNote",
+          "cvAgendaTerms"
+        ],
+        "id": "agenda",
+        "ariaLabel": "Agenda de la sesión después de validar el pago"
+      }
+    },
+    {
+      "id": "cvProcessTitle",
+      "type": "text",
+      "config": {
+        "tag": "h2",
+        "text": "Así de sencillo.",
+        "classes": "ank-fontFamily-GeorgiaCOMserif ank-fontWeight-400 ank-letterSpacing-MIN0_03em ank-m-0 ank-color-titleColor ank-fontSize-2_35rem ank-fontSize-md-3_25rem ank-lineHeight-1_08"
+      }
+    },
+    {
+      "id": "cvStepNumber0",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "01",
+        "classes": "ank-fontFamily-GeorgiaCOMserif ank-fontWeight-400 ank-letterSpacing-MIN0_03em ank-fontSize-3rem ank-color-accentColor"
+      }
+    },
+    {
+      "id": "cvStepTitle0",
+      "type": "text",
+      "config": {
+        "tag": "h3",
+        "text": "Prepara tu envío",
+        "classes": "ank-fontFamily-GeorgiaCOMserif ank-fontWeight-400 ank-letterSpacing-MIN0_03em ank-m-0 ank-fontSize-1_35rem"
+      }
+    },
+    {
+      "id": "cvStepDescription0",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Envía tus datos de entrega en el formulario de Google.",
+        "classes": "ank-m-0 ank-fontSize-1rem ank-fontWeight-400 ank-lineHeight-1_65 ank-color-textColor ank-fontSize-0_9rem"
+      }
+    },
+    {
+      "id": "cvStep0",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-flex ank-flexDirection-column ank-gap-20px ank-gap-10px ank-flex-1 ank-minWidth-0",
+        "components": [
+          "cvStepNumber0",
+          "cvStepTitle0",
+          "cvStepDescription0"
+        ]
+      }
+    },
+    {
+      "id": "cvStepNumber1",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "02",
+        "classes": "ank-fontFamily-GeorgiaCOMserif ank-fontWeight-400 ank-letterSpacing-MIN0_03em ank-fontSize-3rem ank-color-accentColor"
+      }
+    },
+    {
+      "id": "cvStepTitle1",
+      "type": "text",
+      "config": {
+        "tag": "h3",
+        "text": "Confirma por WhatsApp",
+        "classes": "ank-fontFamily-GeorgiaCOMserif ank-fontWeight-400 ank-letterSpacing-MIN0_03em ank-m-0 ank-fontSize-1_35rem"
+      }
+    },
+    {
+      "id": "cvStepDescription1",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Consulta disponibilidad y el total con envío antes de pagar.",
+        "classes": "ank-m-0 ank-fontSize-1rem ank-fontWeight-400 ank-lineHeight-1_65 ank-color-textColor ank-fontSize-0_9rem"
+      }
+    },
+    {
+      "id": "cvStep1",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-flex ank-flexDirection-column ank-gap-20px ank-gap-10px ank-flex-1 ank-minWidth-0",
+        "components": [
+          "cvStepNumber1",
+          "cvStepTitle1",
+          "cvStepDescription1"
+        ]
+      }
+    },
+    {
+      "id": "cvStepNumber2",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "03",
+        "classes": "ank-fontFamily-GeorgiaCOMserif ank-fontWeight-400 ank-letterSpacing-MIN0_03em ank-fontSize-3rem ank-color-accentColor"
+      }
+    },
+    {
+      "id": "cvStepTitle2",
+      "type": "text",
+      "config": {
+        "tag": "h3",
+        "text": "Envía tu comprobante",
+        "classes": "ank-fontFamily-GeorgiaCOMserif ank-fontWeight-400 ank-letterSpacing-MIN0_03em ank-m-0 ank-fontSize-1_35rem"
+      }
+    },
+    {
+      "id": "cvStepDescription2",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Paga según lo acordado y adjunta el comprobante en el mismo chat.",
+        "classes": "ank-m-0 ank-fontSize-1rem ank-fontWeight-400 ank-lineHeight-1_65 ank-color-textColor ank-fontSize-0_9rem"
+      }
+    },
+    {
+      "id": "cvStep2",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-flex ank-flexDirection-column ank-gap-20px ank-gap-10px ank-flex-1 ank-minWidth-0",
+        "components": [
+          "cvStepNumber2",
+          "cvStepTitle2",
+          "cvStepDescription2"
+        ]
+      }
+    },
+    {
+      "id": "cvStepNumber3",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "04",
+        "classes": "ank-fontFamily-GeorgiaCOMserif ank-fontWeight-400 ank-letterSpacing-MIN0_03em ank-fontSize-3rem ank-color-accentColor"
+      }
+    },
+    {
+      "id": "cvStepTitle3",
+      "type": "text",
+      "config": {
+        "tag": "h3",
+        "text": "Recibe tu agenda",
+        "classes": "ank-fontFamily-GeorgiaCOMserif ank-fontWeight-400 ank-letterSpacing-MIN0_03em ank-m-0 ank-fontSize-1_35rem"
+      }
+    },
+    {
+      "id": "cvStepDescription3",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Con el pago validado, recibirás el enlace de Calendly y se coordinará el envío.",
+        "classes": "ank-m-0 ank-fontSize-1rem ank-fontWeight-400 ank-lineHeight-1_65 ank-color-textColor ank-fontSize-0_9rem"
+      }
+    },
+    {
+      "id": "cvStep3",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-flex ank-flexDirection-column ank-gap-20px ank-gap-10px ank-flex-1 ank-minWidth-0",
+        "components": [
+          "cvStepNumber3",
+          "cvStepTitle3",
+          "cvStepDescription3"
+        ]
+      }
+    },
+    {
+      "id": "cvSteps",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-grid ank-gridTemplateColumns-1fr ank-gridTemplateColumns-sm-repeatSD2COM1frED ank-gridTemplateColumns-lg-repeatSD4COM1frED ank-gap-28px",
+        "components": [
+          "cvStep0",
+          "cvStep1",
+          "cvStep2",
+          "cvStep3"
+        ]
+      }
+    },
+    {
+      "id": "cvProcessManual",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "El formulario guarda tus datos de envío. Usa el mismo nombre y teléfono en WhatsApp para continuar la atención. El número comercial está pendiente.",
+        "classes": "ank-m-0 ank-fontSize-1rem ank-fontWeight-400 ank-lineHeight-1_65 ank-color-textColor ank-fontSize-0_85rem"
+      }
+    },
+    {
+      "id": "cvProcessCta",
+      "type": "link",
+      "config": {
+        "href": "/pedido",
+        "text": "Ver formulario de pedido  →",
+        "classes": "ank-display-inlineMINflex ank-alignItems-center ank-justifyContent-center ank-gap-12px ank-minHeight-52px ank-paddingInline-28px ank-paddingBlock-14px ank-borderRadius-40px ank-bg-accentColor ank-color-white ank-border-0 ank-fontSize-1rem ank-fontWeight-500 ank-textDecoration-none ank-cursor-pointer ank-transition-transform__200ms ank-transformHover-translateYSDMIN2pxED ank-outlineOffset-5px",
+        "scrollRestoration": {
+          "mode": "top"
+        }
+      }
+    },
+    {
+      "id": "cvProcessFrame",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-width-100per ank-maxWidth-1200px ank-marginInline-auto ank-display-flex ank-flexDirection-column ank-gap-20px ank-gap-32px",
+        "components": [
+          "cvProcessTitle",
+          "cvSteps",
+          "cvProcessManual",
+          "cvProcessCta"
+        ]
+      }
+    },
+    {
+      "id": "cvProcess",
+      "type": "container",
+      "config": {
+        "tag": "section",
+        "classes": "ank-paddingInline-24px ank-paddingInline-md-48px ank-paddingBlock-64px ank-paddingBlock-md-88px",
+        "components": [
+          "cvProcessFrame"
+        ],
+        "id": "como-comprar"
+      }
+    },
+    {
+      "id": "cvFaqTitle",
+      "type": "text",
+      "config": {
+        "tag": "h2",
+        "text": "Preguntas sobre el producto y la orientación.",
+        "classes": "ank-fontFamily-GeorgiaCOMserif ank-fontWeight-400 ank-letterSpacing-MIN0_03em ank-m-0 ank-color-titleColor ank-fontSize-2_35rem ank-fontSize-md-3_25rem ank-lineHeight-1_08"
+      }
+    },
+    {
+      "id": "cvFaqQuestionabout",
+      "type": "text",
+      "config": {
+        "tag": "h3",
+        "text": "¿Qué es Cat Velvet?",
+        "classes": "ank-fontFamily-GeorgiaCOMserif ank-fontWeight-400 ank-letterSpacing-MIN0_03em ank-m-0 ank-fontSize-1_4rem ank-lineHeight-1_3"
+      }
+    },
+    {
+      "id": "cvFaqAnswerabout",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Cat Velvet es una propuesta de bienestar íntimo para personas adultas: un succionador de rosa AZOI con una sesión orientativa en línea incluida sobre el uso y cuidado del producto.",
+        "classes": "ank-m-0 ank-fontSize-1rem ank-fontWeight-400 ank-lineHeight-1_65 ank-color-textColor ank-fontSize-0_95rem"
+      }
+    },
+    {
+      "id": "cvFaqItemabout",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-flex ank-flexDirection-column ank-gap-20px ank-gap-12px ank-borderTop-1px__solid__HASHDFC8C5 ank-paddingTop-24px",
+        "components": [
+          "cvFaqQuestionabout",
+          "cvFaqAnswerabout"
+        ]
+      }
+    },
+    {
+      "id": "cvFaqQuestionincluded",
+      "type": "text",
+      "config": {
+        "tag": "h3",
+        "text": "¿Qué incluye mi compra?",
+        "classes": "ank-fontFamily-GeorgiaCOMserif ank-fontWeight-400 ank-letterSpacing-MIN0_03em ank-m-0 ank-fontSize-1_4rem ank-lineHeight-1_3"
+      }
+    },
+    {
+      "id": "cvFaqAnswerincluded",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "El producto y una sesión orientativa en línea sobre uso y cuidados. El precio, el contenido exacto del paquete y las condiciones de la sesión están pendientes de confirmar.",
+        "classes": "ank-m-0 ank-fontSize-1rem ank-fontWeight-400 ank-lineHeight-1_65 ank-color-textColor ank-fontSize-0_95rem"
+      }
+    },
+    {
+      "id": "cvFaqItemincluded",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-flex ank-flexDirection-column ank-gap-20px ank-gap-12px ank-borderTop-1px__solid__HASHDFC8C5 ank-paddingTop-24px",
+        "components": [
+          "cvFaqQuestionincluded",
+          "cvFaqAnswerincluded"
+        ]
+      }
+    },
+    {
+      "id": "cvFaqQuestionfeatures",
+      "type": "text",
+      "config": {
+        "tag": "h3",
+        "text": "¿Qué características tiene el succionador de rosa?",
+        "classes": "ank-fontFamily-GeorgiaCOMserif ank-fontWeight-400 ank-letterSpacing-MIN0_03em ank-m-0 ank-fontSize-1_4rem ank-lineHeight-1_3"
+      }
+    },
+    {
+      "id": "cvFaqAnswerfeatures",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Es un producto AZOI de silicona, color rojo y diseño de rosa, con 10 modos de succión, control por un botón y control mediante aplicación móvil. Las medidas, la autonomía, el nombre de la app y su compatibilidad están pendientes de confirmar.",
+        "classes": "ank-m-0 ank-fontSize-1rem ank-fontWeight-400 ank-lineHeight-1_65 ank-color-textColor ank-fontSize-0_95rem"
+      }
+    },
+    {
+      "id": "cvFaqItemfeatures",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-flex ank-flexDirection-column ank-gap-20px ank-gap-12px ank-borderTop-1px__solid__HASHDFC8C5 ank-paddingTop-24px",
+        "components": [
+          "cvFaqQuestionfeatures",
+          "cvFaqAnswerfeatures"
+        ]
+      }
+    },
+    {
+      "id": "cvFaqQuestionorientation",
+      "type": "text",
+      "config": {
+        "tag": "h3",
+        "text": "¿Quién imparte la sesión y qué puedo consultar?",
+        "classes": "ank-fontFamily-GeorgiaCOMserif ank-fontWeight-400 ank-letterSpacing-MIN0_03em ank-m-0 ank-fontSize-1_4rem ank-lineHeight-1_3"
+      }
+    },
+    {
+      "id": "cvFaqAnswerorientation",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "La Mtra. Jethzabel Rojas, psicóloga clínica y sexóloga con maestría en educación sexual, impartirá la sesión. Podrás revisar dudas sobre el uso y cuidado del producto. La sesión incluida tiene un enfoque educativo.",
+        "classes": "ank-m-0 ank-fontSize-1rem ank-fontWeight-400 ank-lineHeight-1_65 ank-color-textColor ank-fontSize-0_95rem"
+      }
+    },
+    {
+      "id": "cvFaqItemorientation",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-flex ank-flexDirection-column ank-gap-20px ank-gap-12px ank-borderTop-1px__solid__HASHDFC8C5 ank-paddingTop-24px",
+        "components": [
+          "cvFaqQuestionorientation",
+          "cvFaqAnswerorientation"
+        ]
+      }
+    },
+    {
+      "id": "cvFaqQuestionprice",
+      "type": "text",
+      "config": {
+        "tag": "h3",
+        "text": "¿Cuánto cuesta el producto con la orientación?",
+        "classes": "ank-fontFamily-GeorgiaCOMserif ank-fontWeight-400 ank-letterSpacing-MIN0_03em ank-m-0 ank-fontSize-1_4rem ank-lineHeight-1_3"
+      }
+    },
+    {
+      "id": "cvFaqAnswerprice",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "El precio está pendiente. La sesión orientativa está incluida en la compra del producto; el costo de envío y el total se confirmarán por WhatsApp antes de realizar el pago.",
+        "classes": "ank-m-0 ank-fontSize-1rem ank-fontWeight-400 ank-lineHeight-1_65 ank-color-textColor ank-fontSize-0_95rem"
+      }
+    },
+    {
+      "id": "cvFaqItemprice",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-flex ank-flexDirection-column ank-gap-20px ank-gap-12px ank-borderTop-1px__solid__HASHDFC8C5 ank-paddingTop-24px",
+        "components": [
+          "cvFaqQuestionprice",
+          "cvFaqAnswerprice"
+        ]
+      }
+    },
+    {
+      "id": "cvFaqQuestionpayment",
+      "type": "text",
+      "config": {
+        "tag": "h3",
+        "text": "¿Cómo pago mi pedido?",
+        "classes": "ank-fontFamily-GeorgiaCOMserif ank-fontWeight-400 ank-letterSpacing-MIN0_03em ank-m-0 ank-fontSize-1_4rem ank-lineHeight-1_3"
+      }
+    },
+    {
+      "id": "cvFaqAnswerpayment",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Envía tus datos de envío en el formulario de Google y continúa por WhatsApp con el mismo nombre y teléfono. En el chat se confirmarán disponibilidad, costo del producto, envío y total antes de pagar. Después podrás adjuntar tu comprobante en esa conversación; el equipo verificará el abono. El número comercial está pendiente y esta vista previa no recibe pagos.",
+        "classes": "ank-m-0 ank-fontSize-1rem ank-fontWeight-400 ank-lineHeight-1_65 ank-color-textColor ank-fontSize-0_95rem"
+      }
+    },
+    {
+      "id": "cvFaqItempayment",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-flex ank-flexDirection-column ank-gap-20px ank-gap-12px ank-borderTop-1px__solid__HASHDFC8C5 ank-paddingTop-24px",
+        "components": [
+          "cvFaqQuestionpayment",
+          "cvFaqAnswerpayment"
+        ]
+      }
+    },
+    {
+      "id": "cvFaqQuestionschedule",
+      "type": "text",
+      "config": {
+        "tag": "h3",
+        "text": "¿Cómo agendo la orientación?",
+        "classes": "ank-fontFamily-GeorgiaCOMserif ank-fontWeight-400 ank-letterSpacing-MIN0_03em ank-m-0 ank-fontSize-1_4rem ank-lineHeight-1_3"
+      }
+    },
+    {
+      "id": "cvFaqAnswerschedule",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Después de que el equipo valide tu pago, recibirás por WhatsApp el enlace de Calendly. Allí podrás elegir un horario disponible y completar la reserva. Revisa la zona horaria y conserva la confirmación. El enlace, la duración y las condiciones para cambios o cancelaciones están pendientes. Enviar un comprobante no reserva una sesión automáticamente.",
+        "classes": "ank-m-0 ank-fontSize-1rem ank-fontWeight-400 ank-lineHeight-1_65 ank-color-textColor ank-fontSize-0_95rem"
+      }
+    },
+    {
+      "id": "cvFaqItemschedule",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-flex ank-flexDirection-column ank-gap-20px ank-gap-12px ank-borderTop-1px__solid__HASHDFC8C5 ank-paddingTop-24px",
+        "components": [
+          "cvFaqQuestionschedule",
+          "cvFaqAnswerschedule"
+        ]
+      }
+    },
+    {
+      "id": "cvFaqQuestionshipping",
+      "type": "text",
+      "config": {
+        "tag": "h3",
+        "text": "¿Cómo será el envío?",
+        "classes": "ank-fontFamily-GeorgiaCOMserif ank-fontWeight-400 ank-letterSpacing-MIN0_03em ank-m-0 ank-fontSize-1_4rem ank-lineHeight-1_3"
+      }
+    },
+    {
+      "id": "cvFaqAnswershipping",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Realizamos envíos a todo México. El costo depende del destino y se cotiza con tus datos de entrega. Antes de pagar, confirmaremos por WhatsApp el total, la paquetería y el plazo estimado; no hay una tarifa única de envío.",
+        "classes": "ank-m-0 ank-fontSize-1rem ank-fontWeight-400 ank-lineHeight-1_65 ank-color-textColor ank-fontSize-0_95rem"
+      }
+    },
+    {
+      "id": "cvFaqItemshipping",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-flex ank-flexDirection-column ank-gap-20px ank-gap-12px ank-borderTop-1px__solid__HASHDFC8C5 ank-paddingTop-24px",
+        "components": [
+          "cvFaqQuestionshipping",
+          "cvFaqAnswershipping"
+        ]
+      }
+    },
+    {
+      "id": "cvFaqQuestioncare",
+      "type": "text",
+      "config": {
+        "tag": "h3",
+        "text": "¿Dónde consulto los cuidados del producto?",
+        "classes": "ank-fontFamily-GeorgiaCOMserif ank-fontWeight-400 ank-letterSpacing-MIN0_03em ank-m-0 ank-fontSize-1_4rem ank-lineHeight-1_3"
+      }
+    },
+    {
+      "id": "cvFaqAnswercare",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Las indicaciones específicas se incorporarán cuando se verifique el manual del fabricante. La sesión incluida permitirá revisar dudas sobre el manejo y cuidado del producto.",
+        "classes": "ank-m-0 ank-fontSize-1rem ank-fontWeight-400 ank-lineHeight-1_65 ank-color-textColor ank-fontSize-0_95rem"
+      }
+    },
+    {
+      "id": "cvFaqItemcare",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-flex ank-flexDirection-column ank-gap-20px ank-gap-12px ank-borderTop-1px__solid__HASHDFC8C5 ank-paddingTop-24px",
+        "components": [
+          "cvFaqQuestioncare",
+          "cvFaqAnswercare"
+        ]
+      }
+    },
+    {
+      "id": "cvFaqList",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-grid ank-gridTemplateColumns-1fr ank-gridTemplateColumns-md-repeatSD2COM1frED ank-gap-32px",
+        "components": [
+          "cvFaqItemabout",
+          "cvFaqItemincluded",
+          "cvFaqItemfeatures",
+          "cvFaqItemorientation",
+          "cvFaqItemprice",
+          "cvFaqItempayment",
+          "cvFaqItemschedule",
+          "cvFaqItemshipping",
+          "cvFaqItemcare"
+        ]
+      }
+    },
+    {
+      "id": "cvContactTitle",
+      "type": "text",
+      "config": {
+        "tag": "h3",
+        "text": "Estamos preparando tu experiencia.",
+        "classes": "ank-fontFamily-GeorgiaCOMserif ank-fontWeight-400 ank-letterSpacing-MIN0_03em ank-m-0 ank-fontSize-1_8rem"
+      }
+    },
+    {
+      "id": "cvContactPending",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "El WhatsApp comercial y la agenda se incorporarán al confirmar los datos del negocio. El formulario de datos de envío ya está disponible.",
+        "classes": "ank-m-0 ank-fontSize-1rem ank-fontWeight-400 ank-lineHeight-1_65 ank-color-textColor"
+      }
+    },
+    {
+      "id": "cvContactCta",
+      "type": "link",
+      "config": {
+        "href": "/pedido",
+        "text": "Explorar el formulario",
+        "classes": "ank-display-inlineMINflex ank-alignItems-center ank-justifyContent-center ank-gap-12px ank-minHeight-52px ank-paddingInline-28px ank-paddingBlock-14px ank-borderRadius-40px ank-bg-accentColor ank-color-white ank-border-0 ank-fontSize-1rem ank-fontWeight-500 ank-textDecoration-none ank-cursor-pointer ank-transition-transform__200ms ank-transformHover-translateYSDMIN2pxED ank-outlineOffset-5px",
+        "scrollRestoration": {
+          "mode": "top"
+        }
+      }
+    },
+    {
+      "id": "cvContact",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-flex ank-flexDirection-column ank-gap-20px ank-paddingTop-24px",
+        "components": [
+          "cvContactTitle",
+          "cvContactPending",
+          "cvContactCta"
+        ],
+        "id": "contacto"
+      }
+    },
+    {
+      "id": "cvInformationTitle",
+      "type": "text",
+      "config": {
+        "tag": "h3",
+        "text": "Información de esta propuesta",
+        "classes": "ank-fontFamily-GeorgiaCOMserif ank-fontWeight-400 ank-letterSpacing-MIN0_03em ank-m-0 ank-fontSize-1_6rem"
+      }
+    },
+    {
+      "id": "cvLegalList",
+      "type": "accordion",
+      "config": {
+        "mode": "single",
+        "allowToggle": true,
+        "scrollBehavior": "none",
+        "items": [
+          {
+            "id": "privacy",
+            "title": "Privacidad · Borrador para revisión",
+            "content": "Jethzabel Rojas, persona física responsable de Cat Velvet, utilizará tu nombre, teléfono y dirección para atender tu solicitud y coordinar el envío. El domicilio y correo de privacidad de la responsable están pendientes. Google Forms guarda las respuestas en una hoja privada. La paquetería seleccionada recibirá los datos necesarios para entregar el paquete. La confirmación del total y el comprobante se atienden por WhatsApp; la agenda de la orientación se comparte después de validar el pago. Consulta el borrador del aviso de privacidad para conocer el uso de tus datos y cómo solicitar acceso, corrección, cancelación u oposición. Para revisar esta vista previa, usa datos ficticios."
+          },
+          {
+            "id": "terms",
+            "title": "Términos y condiciones pendientes",
+            "content": "Esta versión permite revisar el diseño y la navegación. No formaliza una compra ni reserva inventario o una sesión. Enviamos a todo México; el costo depende del destino y se confirma antes del pago. Precio del producto, paquetería, plazos de entrega, garantía, devoluciones y condiciones de la orientación quedan pendientes. La garantía está por confirmar; no se han definido plazos ni exclusiones."
+          }
+        ],
+        "containerClasses": "ank-display-flex ank-flexDirection-column ank-gap-20px ank-gap-0",
+        "defaultItemContainerClasses": "ank-borderBottom-1px__solid__HASHDFC8C5",
+        "defaultItemButtonConfig": {
+          "classes": "ank-bg-transparent ank-border-0 ank-color-textColor ank-display-flex ank-justifyContent-spaceMINbetween ank-width-100per ank-textAlign-left ank-paddingBlock-20px ank-fontSize-1rem ank-lineHeight-1_5 ank-cursor-pointer ank-minHeight-52px",
+          "icon": "add",
+          "iconPosition": "after"
+        },
+        "defaultItemPanelClasses": "ank-paddingBottom-20px ank-lineHeight-1_65",
+        "detailContentClasses": "ank-m-0 ank-fontSize-1rem ank-fontWeight-400 ank-lineHeight-1_65 ank-color-textColor"
+      }
+    },
+    {
+      "id": "cvPrivacyFull",
+      "type": "link",
+      "config": {
+        "href": "/privacidad",
+        "text": "Leer el borrador del aviso de privacidad →",
+        "classes": "ank-bg-transparent ank-border-0 ank-color-textColor ank-fontSize-0_9rem ank-fontWeight-400 ank-padding-10px ank-cursor-pointer ank-textDecoration-none ank-outlineOffset-4px ank-textDecoration-underline",
+        "scrollRestoration": {
+          "mode": "top"
+        }
+      }
+    },
+    {
+      "id": "cvInformation",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-flex ank-flexDirection-column ank-gap-20px ank-paddingTop-24px",
+        "components": [
+          "cvInformationTitle",
+          "cvLegalList",
+          "cvPrivacyFull"
+        ],
+        "id": "informacion"
+      }
+    },
+    {
+      "id": "cvFaqFrame",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-width-100per ank-maxWidth-1200px ank-marginInline-auto ank-display-flex ank-flexDirection-column ank-gap-20px ank-gap-24px",
+        "components": [
+          "cvFaqTitle",
+          "cvFaqList",
+          "cvContact",
+          "cvInformation"
+        ]
+      }
+    },
+    {
+      "id": "cvFaq",
+      "type": "container",
+      "config": {
+        "tag": "section",
+        "classes": "ank-paddingInline-24px ank-paddingInline-md-48px ank-paddingBlock-64px ank-paddingBlock-md-88px ank-bg-HASHFFF3EE",
+        "components": [
+          "cvFaqFrame"
+        ],
+        "id": "preguntas"
+      }
+    },
+    {
+      "id": "cvClosingTitle",
+      "type": "text",
+      "config": {
+        "tag": "h2",
+        "text": "A tu ritmo. Con información.",
+        "classes": "ank-fontFamily-GeorgiaCOMserif ank-fontWeight-400 ank-letterSpacing-MIN0_03em ank-m-0 ank-color-titleColor ank-fontSize-2_35rem ank-fontSize-md-3_25rem ank-lineHeight-1_08 ank-textAlign-center"
+      }
+    },
+    {
+      "id": "cvClosingCta",
+      "type": "link",
+      "config": {
+        "href": "/pedido",
+        "text": "Explorar mi pedido  →",
+        "classes": "ank-display-inlineMINflex ank-alignItems-center ank-justifyContent-center ank-gap-12px ank-minHeight-52px ank-paddingInline-28px ank-paddingBlock-14px ank-borderRadius-40px ank-bg-accentColor ank-color-white ank-border-0 ank-fontSize-1rem ank-fontWeight-500 ank-textDecoration-none ank-cursor-pointer ank-transition-transform__200ms ank-transformHover-translateYSDMIN2pxED ank-outlineOffset-5px",
+        "scrollRestoration": {
+          "mode": "top"
+        }
+      }
+    },
+    {
+      "id": "cvClosing",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-paddingInline-24px ank-paddingInline-md-48px ank-paddingBlock-64px ank-paddingBlock-md-88px ank-display-flex ank-flexDirection-column ank-gap-20px ank-alignItems-center",
+        "components": [
+          "cvClosingTitle",
+          "cvClosingCta"
+        ]
+      }
+    }
+  ]
+}

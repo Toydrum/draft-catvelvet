@@ -1,0 +1,307 @@
+{
+  "version": 1,
+  "domain": "catvelvet",
+  "pageId": "allPages",
+  "components": [
+    {
+      "id": "cvBannerText",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Tu compra incluye orientación en línea",
+        "classes": "ank-m-0 ank-fontSize-0_78rem ank-textAlign-center"
+      }
+    },
+    {
+      "id": "cvBanner",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-bg-secondaryBgColor ank-padding-10px ank-color-textColor",
+        "components": [
+          "cvBannerText"
+        ]
+      }
+    },
+    {
+      "id": "cvBrand",
+      "type": "link",
+      "config": {
+        "href": "/",
+        "text": "cat velvet",
+        "classes": "ank-fontFamily-GeorgiaCOMserif ank-fontWeight-400 ank-letterSpacing-MIN0_03em ank-fontSize-2_4rem ank-fontSize-md-2_9rem ank-color-titleColor ank-textDecoration-none ank-lineHeight-1",
+        "scrollRestoration": {
+          "mode": "top"
+        }
+      }
+    },
+    {
+      "id": "cvNav0",
+      "type": "link",
+      "config": {
+        "href": "/#producto",
+        "text": "Producto",
+        "classes": "ank-bg-transparent ank-border-0 ank-color-textColor ank-fontSize-0_9rem ank-fontWeight-400 ank-padding-10px ank-cursor-pointer ank-textDecoration-none ank-outlineOffset-4px"
+      }
+    },
+    {
+      "id": "cvNav1",
+      "type": "link",
+      "config": {
+        "href": "/#orientacion",
+        "text": "Orientación",
+        "classes": "ank-bg-transparent ank-border-0 ank-color-textColor ank-fontSize-0_9rem ank-fontWeight-400 ank-padding-10px ank-cursor-pointer ank-textDecoration-none ank-outlineOffset-4px"
+      }
+    },
+    {
+      "id": "cvNav2",
+      "type": "link",
+      "config": {
+        "href": "/#como-comprar",
+        "text": "Cómo comprar",
+        "classes": "ank-bg-transparent ank-border-0 ank-color-textColor ank-fontSize-0_9rem ank-fontWeight-400 ank-padding-10px ank-cursor-pointer ank-textDecoration-none ank-outlineOffset-4px"
+      }
+    },
+    {
+      "id": "cvDesktopNav",
+      "type": "container",
+      "config": {
+        "tag": "nav",
+        "classes": "ank-display-none ank-display-md-flex ank-gap-20px ank-alignItems-center",
+        "components": [
+          "cvNav0",
+          "cvNav1",
+          "cvNav2"
+        ],
+        "ariaLabel": "Navegación principal"
+      }
+    },
+    {
+      "id": "cvTalk",
+      "type": "link",
+      "config": {
+        "href": "/#contacto",
+        "text": "Hablemos",
+        "classes": "ank-bg-transparent ank-border-0 ank-color-textColor ank-fontSize-0_9rem ank-fontWeight-400 ank-padding-10px ank-cursor-pointer ank-textDecoration-none ank-outlineOffset-4px ank-display-none ank-display-md-inlineMINflex"
+      }
+    },
+    {
+      "id": "cvMenuIcon",
+      "type": "text",
+      "config": {
+        "tag": "span",
+        "text": "☰",
+        "classes": "ank-fontSize-1_6rem ank-m-0 ank-lineHeight-1"
+      }
+    },
+    {
+      "id": "cvMobileNav",
+      "type": "dropdown",
+      "config": {
+        "items": [
+          {
+            "id": "cvMenu0",
+            "label": "Producto",
+            "href": "/#producto"
+          },
+          {
+            "id": "cvMenu1",
+            "label": "Orientación",
+            "href": "/#orientacion"
+          },
+          {
+            "id": "cvMenu2",
+            "label": "Cómo comprar",
+            "href": "/#como-comprar"
+          },
+          {
+            "id": "cvMenuPedido",
+            "label": "Ver formulario de pedido",
+            "href": "/pedido"
+          }
+        ],
+        "components": [
+          "cvMenuIcon"
+        ],
+        "dropdownConfig": {
+          "ariaLabel": "Abrir menú de navegación",
+          "closeOnSelect": true,
+          "renderMode": "inline",
+          "menuContainerId": "cv-mobile-navigation",
+          "inlinePortalTargetSelector": "#cv-mobile-anchor",
+          "buttonClasses": "ank-bg-transparent ank-border-0 ank-color-textColor ank-fontSize-0_9rem ank-fontWeight-400 ank-padding-10px ank-cursor-pointer ank-textDecoration-none ank-outlineOffset-4px ank-display-md-none ank-minWidth-44px ank-minHeight-44px",
+          "menuContainerClasses": "ank-display-md-none ank-width-100per ank-paddingBlock-12px",
+          "menuListClasses": "ank-listStyle-none ank-p-0 ank-m-0 ank-display-flex ank-flexDirection-column ank-gap-20px",
+          "itemLinkClasses": "ank-bg-transparent ank-border-0 ank-color-textColor ank-fontSize-0_9rem ank-fontWeight-400 ank-padding-10px ank-cursor-pointer ank-textDecoration-none ank-outlineOffset-4px ank-display-block ank-padding-12px",
+          "menuNavClasses": "ank-width-100per"
+        }
+      },
+      "eventInstructions": "navigateToUrl:event.eventData.href,event.eventData.target"
+    },
+    {
+      "id": "cvHeaderFrame",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-width-100per ank-maxWidth-1200px ank-marginInline-auto ank-display-flex ank-alignItems-center ank-justifyContent-spaceMINbetween ank-gap-20px",
+        "components": [
+          "cvBrand",
+          "cvDesktopNav",
+          "cvTalk",
+          "cvMobileNav"
+        ]
+      }
+    },
+    {
+      "id": "cvMobileAnchor",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-width-100per ank-maxWidth-1200px ank-marginInline-auto",
+        "components": [],
+        "id": "cv-mobile-anchor"
+      }
+    },
+    {
+      "id": "cvHeader",
+      "type": "container",
+      "config": {
+        "tag": "header",
+        "classes": "ank-bg-bgColor ank-paddingInline-24px ank-paddingInline-md-48px ank-paddingBlock-20px",
+        "components": [
+          "cvHeaderFrame",
+          "cvMobileAnchor"
+        ]
+      }
+    },
+    {
+      "id": "cvPreviewText",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Vista previa · Precio y WhatsApp pendientes.",
+        "classes": "ank-m-0 ank-fontSize-0_75rem ank-textAlign-center ank-lineHeight-1_5"
+      }
+    },
+    {
+      "id": "cvPreview",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-bg-HASHF7E9E6 ank-padding-8px__24px",
+        "components": [
+          "cvPreviewText"
+        ]
+      }
+    },
+    {
+      "id": "cvFooterLogo",
+      "type": "link",
+      "config": {
+        "href": "/",
+        "text": "cat velvet",
+        "classes": "ank-fontFamily-GeorgiaCOMserif ank-fontWeight-400 ank-letterSpacing-MIN0_03em ank-fontSize-2_6rem ank-color-titleColor ank-textDecoration-none",
+        "scrollRestoration": {
+          "mode": "top"
+        }
+      }
+    },
+    {
+      "id": "cvFooterTag",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Bienestar íntimo, con información y confianza.",
+        "classes": "ank-m-0 ank-fontSize-1rem ank-fontWeight-400 ank-lineHeight-1_65 ank-color-textColor ank-fontSize-0_85rem"
+      }
+    },
+    {
+      "id": "cvFooterBrand",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-flex ank-flexDirection-column ank-gap-20px ank-gap-8px",
+        "components": [
+          "cvFooterLogo",
+          "cvFooterTag"
+        ]
+      }
+    },
+    {
+      "id": "cvPrivacyLink",
+      "type": "link",
+      "config": {
+        "href": "/privacidad",
+        "text": "Privacidad",
+        "classes": "ank-bg-transparent ank-border-0 ank-color-textColor ank-fontSize-0_9rem ank-fontWeight-400 ank-padding-10px ank-cursor-pointer ank-textDecoration-none ank-outlineOffset-4px",
+        "scrollRestoration": {
+          "mode": "top"
+        }
+      }
+    },
+    {
+      "id": "cvTermsLink",
+      "type": "link",
+      "config": {
+        "href": "/#informacion",
+        "text": "Términos",
+        "classes": "ank-bg-transparent ank-border-0 ank-color-textColor ank-fontSize-0_9rem ank-fontWeight-400 ank-padding-10px ank-cursor-pointer ank-textDecoration-none ank-outlineOffset-4px"
+      }
+    },
+    {
+      "id": "cvContactLink",
+      "type": "link",
+      "config": {
+        "href": "/#contacto",
+        "text": "Contacto",
+        "classes": "ank-bg-transparent ank-border-0 ank-color-textColor ank-fontSize-0_9rem ank-fontWeight-400 ank-padding-10px ank-cursor-pointer ank-textDecoration-none ank-outlineOffset-4px"
+      }
+    },
+    {
+      "id": "cvFooterLinks",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-flex ank-flexWrap-wrap ank-gap-12px",
+        "components": [
+          "cvPrivacyLink",
+          "cvTermsLink",
+          "cvContactLink"
+        ]
+      }
+    },
+    {
+      "id": "cvFooterFrame",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-width-100per ank-maxWidth-1200px ank-marginInline-auto ank-display-flex ank-flexDirection-column ank-flexDirection-md-row ank-gap-32px ank-gap-md-64px ank-alignItems-center ank-justifyContent-spaceMINbetween",
+        "components": [
+          "cvFooterBrand",
+          "cvFooterLinks"
+        ]
+      }
+    },
+    {
+      "id": "cvFooterNote",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Propuesta para personas adultas. Imágenes ilustrativas generadas o editadas con IA; ficha técnica y condiciones comerciales por confirmar.",
+        "classes": "ank-m-0 ank-fontSize-1rem ank-fontWeight-400 ank-lineHeight-1_65 ank-color-textColor ank-fontSize-0_72rem ank-maxWidth-1200px ank-marginInline-auto ank-paddingTop-24px"
+      }
+    },
+    {
+      "id": "cvFooter",
+      "type": "container",
+      "config": {
+        "tag": "footer",
+        "classes": "ank-paddingInline-24px ank-paddingInline-md-48px ank-paddingBlock-64px ank-paddingBlock-md-88px ank-bg-secondaryBgColor",
+        "components": [
+          "cvFooterFrame",
+          "cvFooterNote"
+        ]
+      }
+    }
+  ]
+}
